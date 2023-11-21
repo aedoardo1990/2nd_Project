@@ -29,6 +29,26 @@ body {
     display: flex;
 }
 
+/* Main */
+main {
+    margin-bottom: 10%;
+}
+
+/* Game Info Section */
+#game-info {
+    margin-bottom: 7%;
+}
+
+/* F1 Music Anthem Toggle*/
+#player {
+    padding-top: 20%;
+}
+
+#button {
+    float: left;
+}
+
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -38,4 +58,7 @@ body {
     background-color: #e10600;
     list-style-type: none;
 }
-{}
+
+
+
+
