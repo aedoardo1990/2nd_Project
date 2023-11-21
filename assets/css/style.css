@@ -1,0 +1,41 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
+
+/*Wildcard selector*/
+* {
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+body {
+    background-color: white;
+    color: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Heading */
+.header1 {
+    color: white;
+    background-color: #e10600;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    height: 40%;
+    display: flex;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e10600;
+    list-style-type: none;
+}
+{}
