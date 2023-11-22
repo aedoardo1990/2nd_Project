@@ -87,10 +87,24 @@ main {
     float: left;
 }
 
-/* Game Block Area */
+/* Score Area */
+.score-area {
+    border: black solid;
+    background-color: white;
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
 
-/* Cards Area */
-.card {
+/* Div Player */
+.card-driver {
+    border: black solid;
+    width: 40%;
+    height: 50%;
+}
+
+.card-driver img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer */
