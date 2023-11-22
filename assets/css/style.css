@@ -87,6 +87,12 @@ main {
     float: left;
 }
 
+/*Game Block */
+.game-score-block {
+    border: #000 dashed; /* added temporarily to visualize game block*/
+    margin-top: 5%;
+}
+
 /* Score Area */
 .score-area {
     border: black solid;
@@ -95,7 +101,7 @@ main {
     margin-bottom: 11%;
 }
 
-/* Div Player */
+/* Div Player Box */
 .card-driver {
     border: black solid;
     width: 40%;

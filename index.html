@@ -23,7 +23,7 @@
             <label for="driver-photo-input">Upload your Driver Photo:</label>
             <input id="driver-photo-input" name="driverphoto" class="start-box-input" type="file" accept="image/*">
             <br>
-            <button class="start-btn" id="start-btn" type="submit" aria-label="start game" onclick="submitForm()">Start the Qualifying</button>
+            <button class="start-btn" id="start-btn" type="submit" aria-label="start game" onclick = "myTimer()">Start the Qualifying</button>
         </form>
     </dialog>
     <!--Header-->
@@ -52,10 +52,13 @@
         <div class="game-score-block">
             <!--Timer and Final Position-->
             <section class="score-area">
-                <div class="timer-area" aria-label="timer area">
-                    <h4><i class="fa-solid fa-stopwatch" style="color: #000000;"></i> Time:</h4>
+                <div aria-label="timer area">
+                    <h4><i class="fa-solid fa-stopwatch" style="color: #000000;"></i> Time:
+                        <span class="clock" id="timer">00:00
+                        </span>
+                    </h4>
                 </div>
-                <div class="final-position" aria-label="ranking area">
+                <div class="position" aria-label="ranking area">
                     <h4><i class="fa-solid fa-trophy" style="color: #000000;"></i> Final Position:</h4>
                 </div>
             </section>

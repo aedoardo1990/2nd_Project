@@ -1,9 +1,6 @@
 // retrieve dialog element
 const dialog = document.getElementById('dialog')
 
-//retrieve start game button
-const button = document.getElementById('start-btn')
-
 // retrieve driver name input
 const driverNameInput = document.getElementById('driver-name-input')
 
@@ -35,6 +32,23 @@ input.onchange = function (ev) {
     img.src = blobURL;
 }
 
+// Timer - activated when form is submitted - credit to https://stackoverflow.com/questions/55031097/how-do-i-start-a-timer-on-a-click
+let min = 00;
+let sec = 00;
+
+function myTimer(){
+    timer.innerHTML = min +":"+sec;
+    sec++;
+    if (sec>=60){
+        sec=0;min++;
+    }
+}
+
+
+//Start the timer
+let button = document.getElementById('start-btn').addEventListener('click',() => {
+    setInterval(myTimer, 1000);
+}, { once: true });
 
 // Toggle On Off created thanks to https://stackoverflow.com/questions/55018585/how-to-turn-on-audio-on-click-icon-play-pause
 function togglePlay() {
