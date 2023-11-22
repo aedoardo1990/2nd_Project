@@ -14,6 +14,18 @@
 </head>
 
 <body>
+    <!--Start Form - code inspired from https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/blob/main/index.html -->
+    <dialog onload="openModal()" class="dialog" id="dialog">
+        <h2 class="start-box-heading">Let's drive!</h2>
+        <form class="form" method="dialog">
+            <label for="driver-name-input">Enter your Driver Name:</label>
+            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text">
+            <label for="driver-photo-input">Upload your Driver Photo:</label>
+            <input id="driver-photo-input" name="driver-photo" class="start-box-input" type="file">
+            <br>
+            <button class="start-btn" id="start-btn" type="submit" aria-label="start game">Start the Qualifying</button>
+        </form>
+    </dialog>
     <!--Header-->
     <header>
             <span>
