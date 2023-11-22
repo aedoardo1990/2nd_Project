@@ -19,9 +19,9 @@
         <h2 class="start-box-heading">Let's drive!</h2>
         <form class="form" method="dialog">
             <label for="driver-name-input">Enter your Driver Name:</label>
-            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text" required>
+            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text">
             <label for="driver-photo-input">Upload your Driver Photo:</label>
-            <input id="driver-photo-input" name="driver-photo" class="start-box-input" type="file" required>
+            <input id="driver-photo-input" name="driverphoto" class="start-box-input" type="file" accept="image/*">
             <br>
             <button class="start-btn" id="start-btn" type="submit" aria-label="start game" onclick="submitForm()">Start the Qualifying</button>
         </form>
@@ -50,48 +50,10 @@
 
         <div class="game-score-block">
             <section class="cards-area" aria-label="game card grid">
-            <div class="card" data-image="Ferrari">
-                <img src="./assets/images/pilots/LeClerc.avif" alt="Charles Leclerc - Ferrari" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="Ferrari">
-                <img src="./assets/images/pilots/Sainz.avif" alt="Carlos Sainz - Ferrari" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="RedBull">
-                <img src="./assets/images/pilots/Verstappen.avif" alt="Max Verstappen-RedBull" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="RedBull">
-                <img src="./assets/images/pilots/Perez.avif" alt="Sergio Perez-RedBull" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="Mercedes">
-                <img src="./assets/images/pilots/Hamilton.avif" alt="Lewis Hamilton - Mercedes" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="Mercedes">
-                <img src="./assets/images/pilots/Russell.avif" alt="George Russell- Mercedes" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="AstonMartin">
-                <img src="./assets/images/pilots/Alonso.avif" alt="Fernando Alonso - Aston Martin" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="AstonMartin">
-                <img src="./assets/images/pilots/Stroll.avif" alt="Lance Stroll - Aston Martin" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="McLaren">
-                <img src="./assets/images/pilots/Norris.avif" alt="Lando Norris - McLaren" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="McLaren">
-                <img src="./assets/images/pilots/Piastri.avif" alt="Oscar Piastri - McLaren" class="front">
-                <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
-            </div>
-            <div class="card" data-image="" id="output">
 
+            <div class="card-driver">
+                <img id="tosubmit" alt="driver photo to uplaod" width="200">
+                <p id="tosubmit2">Driver Name</p>
             </div>
             </section>
         </div>
