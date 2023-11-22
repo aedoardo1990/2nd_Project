@@ -19,11 +19,11 @@
         <h2 class="start-box-heading">Let's drive!</h2>
         <form class="form" method="dialog">
             <label for="driver-name-input">Enter your Driver Name:</label>
-            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text">
+            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text" required>
             <label for="driver-photo-input">Upload your Driver Photo:</label>
-            <input id="driver-photo-input" name="driver-photo" class="start-box-input" type="file">
+            <input id="driver-photo-input" name="driver-photo" class="start-box-input" type="file" required>
             <br>
-            <button class="start-btn" id="start-btn" type="submit" aria-label="start game">Start the Qualifying</button>
+            <button class="start-btn" id="start-btn" type="submit" aria-label="start game" onclick="submitForm()">Start the Qualifying</button>
         </form>
     </dialog>
     <!--Header-->
@@ -90,9 +90,8 @@
                 <img src="./assets/images/pilots/Piastri.avif" alt="Oscar Piastri - McLaren" class="front">
                 <img src="assets/images/cards-back.jpeg" alt="card back" class="back">
             </div>
-            <div class="card" data-image="">
-                <img src="" alt="your image to upload" class="front">
-                <img>
+            <div class="card" data-image="" id="output">
+
             </div>
             </section>
         </div>
