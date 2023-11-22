@@ -45,7 +45,7 @@ const photoFile = photoInput.files[0];
 const photoElement = document.createElement('img');
 photoElement.src = URL.createObjectURL(photoFile);
 photoElement.alt = "Uploaded Photo";
-photoElement.style.maxWidth = '100%';
+photoElement.style.maxWidth = '400px';
 
 // Create a paragraph element to display the entered text
 const textElement = document.createElement('p');

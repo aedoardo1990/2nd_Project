@@ -90,19 +90,7 @@ main {
 /* Game Block Area */
 
 /* Cards Area */
-.cards-area {
-    width: 120%;
-    height: 490px;
-    margin: auto;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    perspective: 1000px;
-}
-
 .card {
-    width: 30px;
-    height: 50px;
 }
 
 /* Footer */
