@@ -26,40 +26,6 @@ function closeModal() {
     dialog.style.display = "none";
 }
 
-// Submit Form Function -- sending data to div -- created with help of ChatGTP
-function submitForm(){
-    const textValue = document.getElementById('driver-name-input').value;
-    const photoInput = document.getElementById('driver-photo-input');
-
-// Validate if the image file is selected
-if (photoInput.files.length === 0) {
-    alert("Please select an image file.");
-    return;
-}
-
-// Read the selected image file
-const photoFile = photoInput.files[0];
-
-
-// Create an image element to display the selected image
-const photoElement = document.createElement('img');
-photoElement.src = URL.createObjectURL(photoFile);
-photoElement.alt = "Uploaded Photo";
-photoElement.style.maxWidth = '400px';
-
-// Create a paragraph element to display the entered text
-const textElement = document.createElement('p');
-textElement.textContent = `${textValue}`;
-
-// Get the output div and clear its previous content
-const outputDiv = document.getElementById('output');
-outputDiv.innerHTML = '';
-
-// Append the image and text elements to the output div
-outputDiv.appendChild(photoElement);
-outputDiv.appendChild(textElement);
-}
-
 
 // Toggle On Off created thanks to https://stackoverflow.com/questions/55018585/how-to-turn-on-audio-on-click-icon-play-pause
 function togglePlay() {
