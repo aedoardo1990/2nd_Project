@@ -1,0 +1,34 @@
+[
+    {
+        "photo": "../assets/images/pilots/leclerc.avif",
+        "pilot": "charles-leclerc"
+    },
+    {
+        "photo": "../assets/images/pilots/sainz.avif",
+        "pilot": "carlos-sainz"
+    },
+    {
+        "photo": "../assets/images/pilots/hamilton.avif",
+        "pilot": "lewis-hamilton"
+    },
+    {
+        "photo": "../assets/images/pilots/russella.avif",
+        "pilot": "george-russell"
+    },
+    {
+        "photo": "../assets/images/pilots/verstappen.avif",
+        "pilot": "max-verstappen"
+    },
+    {
+        "photo": "../assets/images/pilots/perez.avif",
+        "pilot": "sergio-perez"
+    },
+    {
+        "photo": "../assets/images/pilots/norris.avif",
+        "pilot": "lando-norris"
+    },
+    {
+        "photo": "../assets/images/pilots/piastri.avif",
+        "pilot": "oscar-piastri"
+    }
+]
