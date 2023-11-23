@@ -45,10 +45,13 @@ function myTimer(){
 }
 
 
-//Start the timer
-let button = document.getElementById('start-btn').addEventListener('click',() => {
-    setInterval(myTimer, 1000);
+//Start the timer and close the modal
+var button = document.getElementById('start-btn').addEventListener('click',() => {
+    setInterval(myTimer, 1000); 
+    //close modal 
+    dialog.style.display = "none";
 }, { once: true });
+
 
 // Toggle On Off created thanks to https://stackoverflow.com/questions/55018585/how-to-turn-on-audio-on-click-icon-play-pause
 function togglePlay() {
