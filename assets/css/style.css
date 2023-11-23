@@ -95,24 +95,54 @@ main {
     border: #000 dashed; /* added temporarily to visualize game block*/
     margin-top: 11%;
     margin-bottom: 120%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Score Area */
 .score-area {
     border: black solid;
     background-color: white;
-    margin-top: 11%;
+    margin-top: 7%;
     margin-bottom: 11%;
+    width: 100%;
 }
 
 /* Cards Area */
+.cards-area {
+    width: 440px;
+    height: 440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 35%;
+}
+
+.card {
+    width: calc(27% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5.5%;
+    position: relative;
+    }
+
+.front-face,
+.back-face {
+    width: 130%;
+    height: 110%;
+    margin-left: 50%;
+    padding: 2px;
+    position: absolute;
+    border-radius: 5px;
+    background: #e10600;
+}
 
 
 /* Div Player Box */
 .card-driver {
     border: black solid;
-    width: 40%;
-    height: 50%;
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
 }
 
 .card-driver img {
