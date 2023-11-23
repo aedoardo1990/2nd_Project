@@ -68,6 +68,19 @@ function togglePlay() {
     }
 }
 
+// Cards Area 
+const cardsBlock = document.querySelector(".cards-area");
+let cards = []
+let firstCard, secondCard;
+let lockBoard = false; //variable to use when comparing cards
+let score = 0; 
 
+document.querySelector(".score").textContent = score;
+
+fetch("./data/cards.json")
+.then((res)=> res.json())
+.then(
+    
+)
 
 

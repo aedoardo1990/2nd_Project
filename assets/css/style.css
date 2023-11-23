@@ -42,7 +42,7 @@ body {
     margin: 5%;
     position: fixed;
     padding: 1rem;
-    margin-top: 75%;
+    margin-top: 15%;
 }
 
 .dialog,
@@ -93,7 +93,8 @@ main {
 /*Game Block */
 .game-score-block {
     border: #000 dashed; /* added temporarily to visualize game block*/
-    margin-top: 5%;
+    margin-top: 11%;
+    margin-bottom: 120%;
 }
 
 /* Score Area */
@@ -102,6 +103,60 @@ main {
     background-color: white;
     margin-top: 11%;
     margin-bottom: 11%;
+}
+
+/* Cards Area */
+.cards-area {
+    display: grid;
+    justify-content: center;
+    grid-gap: 1px;
+    grid-template-columns: repeat(2, 40%);
+    grid-template-rows: repeat(5, calc(40%/2*3));
+    margin-bottom: 5%;
+}
+
+.card {
+    height: calc(40%/2*3);
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d; /*3D effect*/
+    transition: all 0.5s ease-in-out; /*to make animation smooth*/
+}
+
+.front-image {
+    width: 60px;
+    height: 60px;
+}
+
+/*rotate card*/
+.card-flipped {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back{
+    backface-visibility: hidden;
+    position:absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.card .back {
+    background-image: url("./assets/images/cards-back.jpeg");
+    background-position: center center;
+    background-size: cover cover;
+    backface-visibility: hidden;
 }
 
 /* Div Player Box */
