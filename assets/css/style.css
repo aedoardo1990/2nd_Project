@@ -106,7 +106,7 @@ main {
 }
 
 /* Cards Area */
-.cards-area {
+.grid-container {
     display: grid;
     justify-content: center;
     grid-gap: 1px;
