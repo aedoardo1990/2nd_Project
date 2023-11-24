@@ -52,6 +52,11 @@ var button = document.getElementById('start-btn').addEventListener('click',() =>
     dialog.style.display = "none";
 }, { once: true });
 
+// Enter Driver Name after submitting form 
+function displayName() {
+    var driverName = document.getElementById("driver-name-input").value;
+    document.getElementById("show-name").innerHTML = driverName;
+}
 
 // Toggle On Off created thanks to https://stackoverflow.com/questions/55018585/how-to-turn-on-audio-on-click-icon-play-pause
 function togglePlay() {
