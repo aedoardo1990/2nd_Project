@@ -95,8 +95,6 @@ main {
     border: #000 dashed; /* added temporarily to visualize game block*/
     margin-top: 11%;
     margin-bottom: 120%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /* Score Area */
@@ -115,7 +113,7 @@ main {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-bottom: 35%;
     perspective: 1000px;
 }
