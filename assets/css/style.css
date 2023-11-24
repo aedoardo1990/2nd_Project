@@ -117,26 +117,47 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 35%;
+    perspective: 1000px;
 }
 
 .card {
-    width: calc(27% - 10px);
+    width: calc(25% - 10px);
     height: calc(33.333% - 10px);
-    margin: 5.5%;
+    margin: 5px;
     position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
     }
+
+    /*pseudo class will be triggered every time the element gets clicked and will apply a .2s transition to its size:*/
+.card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
 
 .front-face,
 .back-face {
-    width: 130%;
-    height: 110%;
-    margin-left: 50%;
+    width: 100%;
+    height: 100%;
     padding: 2px;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 2px;
     background: #e10600;
+    backface-visibility: hidden;
 }
 
+/*to rotate the card*/
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+/*to rotate front face*/
+.front-face {
+    transform: rotateY(180deg);
+}
 
 /* Div Player Box */
 .card-driver {
