@@ -114,12 +114,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    justify-content: flex-end;
     margin-bottom: 35%;
     perspective: 1000px;
 }
 
 .card {
-    width: calc(25% - 10px);
+    width: calc(37% - 24px);
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
