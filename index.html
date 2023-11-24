@@ -52,15 +52,19 @@
         <div class="game-score-block">
             <!--Timer and Final Position-->
             <section class="score-area">
-                <div aria-label="timer area">
+                <span class= "timer-span" aria-label="timer area">
                     <h4><i class="fa-solid fa-stopwatch" style="color: #000000;"></i> Time:
                         <span class="clock" id="timer">00:00
                         </span>
                     </h4>
-                </div>
-                <div class="position" aria-label="ranking area">
-                    <h4><i class="fa-solid fa-trophy" style="color: #000000;"></i> Final Position:</h4>
-                </div>
+                    <h4><i class="fa-solid fa-trophy" style="color: #000000;"></i> Final Position:
+                    </h4>
+                    <h4><i class="fa-solid fa-user" style="color: #000000;"></i> Driver:</h4>
+                </span>
+                <span class="card-driver">
+                    <img id="tosubmit" alt="driver photo to uplaod" width="200">
+                    <p id="tosubmit2">Driver Name</p>
+                </span>
             </section>
             <!--Cards table section-->
             <section class="cards-area">
@@ -113,9 +117,6 @@
                                 <img src="./assets/images/pilots/zhou.avif" alt="Guanyu Zhou - Alfa-Romeo" class="front-face">
                                 <img src="assets/images/cards-back-3.png" alt="card back" class="back-face">
                             </div>
-
-                        
-                            
             </section>
         </div>
     </main>
