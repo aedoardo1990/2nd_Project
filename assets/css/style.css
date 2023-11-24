@@ -39,10 +39,11 @@ body {
     background-color: white;
     color: black;
     max-width: 400px;
-    margin: 5%;
+    margin: 3%;
     position: fixed;
     padding: 1rem;
     margin-top: 15%;
+    z-index: 1000;/*to keep scrolling modal in front of everything*/
 }
 
 .dialog,
@@ -92,7 +93,6 @@ main {
 
 /*Game Block */
 .game-score-block {
-    border: #000 dashed; /* added temporarily to visualize game block*/
     margin-top: 11%;
     margin-bottom: 120%;
 }
