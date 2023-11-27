@@ -1,27 +1,11 @@
 // retrieve dialog element
 const dialog = document.getElementById('dialog')
 
-// retrieve driver name input
-const driverNameInput = document.getElementById('driver-name-input')
-
-// retrieve driver name element
-const driverName = document.getElementById('driver-name')
-
-//retrieve driver photo upload
-const driverPhotoInput = document.getElementById('driver-photo-input')
-
-// retrieve driver photo element
-const driverPhoto = document.getElementById('driver-photo')
-
 // Open Modal 
 function openModal() {
     dialog.showModal();
 }
 
-function closeModal() {
-    dialog.close();
-    dialog.style.display = "none";
-}
 
 // transmitting Photo to Div with class="card-driver" in HTML - credit to https://stackoverflow.com/questions/71608101/how-to-fill-a-div-with-an-image-the-user-uploads
 const img = document.getElementById('tosubmit')
@@ -32,25 +16,35 @@ input.onchange = function (ev) {
     img.src = blobURL;
 }
 
-// Timer - activated when form is submitted - credit to https://stackoverflow.com/questions/55031097/how-do-i-start-a-timer-on-a-click
-let min = 00;
-let sec = 00;
+// store elapsed time from timer
+let timerCtrl = null; // store the return value of setInterval
+let matchCounter = 0;
 
-function myTimer(){
-    timer.innerHTML = min +":"+sec;
-    sec++;
-    if (sec>=60){
-        sec=0;min++;
+//Timer - credits to https://stackoverflow.com/questions/69936780/how-to-stop-the-time-automatically-when-all-cards-are-flipped-in-memory-game-usi
+function time() {
+    
+    var minutesLabel = document.getElementById("minutes");
+    var secondsLabel = document.getElementById("seconds");
+    var totalSeconds = 0;
+    timerCtrl = setInterval(setTime, 1000);
+    dialog.style.display = "none"; // closes the modal when form is submitted
+    
+
+    function setTime() {
+        ++totalSeconds;
+        secondsLabel.innerHTML = pad(totalSeconds % 60);
+        minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+    }
+
+    function pad(val) {
+        var valString = val + "";
+        if (valString.length < 2) {
+            return "0" + valString;
+        } else {
+            return valString;
+        }
     }
 }
-
-
-//Start the timer and close the modal
-var button = document.getElementById('start-btn').addEventListener('click',() => {
-    setInterval(myTimer, 1000); 
-    //close modal 
-    dialog.style.display = "none";
-}, { once: true });
 
 // Enter Driver Name after submitting form 
 function displayName() {
@@ -98,13 +92,19 @@ function flipCard() {
     checkForMatch();
 }
 
-function checkForMatch() {
-    if (firstCard.dataset.framework === secondCard.dataset.framework) {
-        disableCards();
-        return;
-    }
 
-    unflipCards();
+function checkForMatch() {
+    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
+
+    if (isMatch) {
+        matchCounter += 1;
+        disableCards();
+        if (matchCounter == (cards.length / 2)) {
+            clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
+        }
+    }
+    else { unflipCards(); }
+
 }
 
 function disableCards() {
@@ -141,3 +141,12 @@ function resetBoard() {
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
+// Assign position after all cards are uncovered 
+{ }
+// Assign position to player on grid 
+{ }
+// Pop up window for Position 
+{ }
+// Restart game button 
+
+{ }
