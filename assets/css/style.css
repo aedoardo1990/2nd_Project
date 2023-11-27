@@ -237,8 +237,9 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
 
-    /* Home */
-    {
-        
-    }
+    /* Form with submit Info */
+    .dialog {
+        margin-left: 25%;
+            }
+}
 
