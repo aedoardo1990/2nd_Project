@@ -100,7 +100,7 @@ function checkForMatch() {
         matchCounter += 1;
         disableCards();
         if (matchCounter == (cards.length / 2)) {
-            clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
+          clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
         }
     }
     else { unflipCards(); }
@@ -141,12 +141,24 @@ function resetBoard() {
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
-// Assign position after all cards are uncovered 
-{ }
+// Assign 1st position + pop up window - if player finishes within 10 second
+
+
+// Assign 2nd position + pop up window - if player finishes within 20 second
+
+
+// Assign 3rd position + pop up window - if player finishes within 30 second
+
+
+// Assign 4th position + pop up window - if player finishes within 40 second
+
+
+
 // Assign position to player on grid 
 { }
+
 // Pop up window for Position 
 { }
-// Restart game button 
 
+// Restart game button 
 { }

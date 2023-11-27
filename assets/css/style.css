@@ -194,6 +194,37 @@ main {
     list-style-type: none;
 }
 
+/* Pop up Window - End Game */
 
+.popup-end-game {
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    min-width: 345px;
+    max-width: 400px;
+    height: auto;
+    border: 5px solid brown;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    background: rgba(251, 229, 187, 1);
+    font-weight: 900;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    filter: drop-shadow(30px 10px 10px #313131);
+}
 
+/* style of winning popup - default hidden */
+#popup-pole {
+    display: none;
+    height: 450px;
+    font-size: 1.5em;
+    background: lightgreen;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
