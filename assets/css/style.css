@@ -82,6 +82,12 @@ main {
     margin-bottom: 7%;
 }
 
+.finish-times {
+    list-style-type: none;
+
+}
+
+
 /* F1 Music Anthem Toggle*/
 #player {
     padding-top: 20%;
@@ -227,4 +233,12 @@ main {
     
     
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* Home */
+    {
+        
+    }
 
