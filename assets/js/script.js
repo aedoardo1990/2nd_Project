@@ -100,7 +100,9 @@ function checkForMatch() {
         matchCounter += 1;
         disableCards();
         if (matchCounter == (cards.length / 2)) {
-          clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
+         var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
+            setTimeout(function () { document.getElementById("popup-pole").style.display = "block"; }, parseInt(finalTime) <= parseInt(60000));
+
         }
     }
     else { unflipCards(); }
