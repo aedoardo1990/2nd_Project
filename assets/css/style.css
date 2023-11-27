@@ -124,7 +124,7 @@ main {
 }
 
 
-/* Span Player Box */
+/* Div Player Box */
 .card-driver {
     border: #e10600 solid 4px;
     border-radius: 5px;
@@ -241,6 +241,34 @@ main {
     /* Form with submit Info */
     .dialog {
         margin-left: 25%;
-            }
+    }
+
+    /* Header */
+    .header1-title {
+        margin-left: 9%;
+        font-size: 120%;
+    }
+
+    /* Score Area */
+    .score-area {
+    margin-top: -1%;
+    }
+
+    /* Div Player Box */
+    .card-driver {    
+    width: calc(30% - 25px);
+    margin-left: 14%;
+    }
+
+    /* Cards */
+    .card {
+    width: calc(45% - 21px);
+    height: calc(52% - 10px);
+    margin-left: 5%;
+    }    
+
+    .footer {
+        margin-top: 20%;
+    }
 }
 
