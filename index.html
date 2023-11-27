@@ -28,12 +28,12 @@
     </dialog>
     <!--Header-->
     <header>
-            <span>
+            <div>
             <h1 class="header1"><img class="logo" src="./assets/images/f1-logo-red.png" alt="F1 logo">Pole Position</h1>
-            </span>
-            <span>
+            </div>
+            <div>
             <h2 class="header2">A F1 memory card game to start in Pole Position!</h2>
-            </span>
+            </div>
     </header>
     <!--Main Content-->
     <main> 
@@ -54,15 +54,15 @@
         </section>
         <!--Button to play F1 Anthem-->
         <span id="player"><strong>Play and get ready in your car!</strong>
-            <img id="button" width="30px" onclick="togglePlay()" src="assets/images/circle-play-regular.svg" alt="anthem formula1">
-            <audio src="assets/audio/f1_theme_brian_tyler.mp3" type="audio/mpeg"></audio> 
+            <img id="button" onclick="togglePlay()" src="assets/images/circle-play-regular.svg" alt="anthem formula1">
+            <audio src="assets/audio/f1_theme_brian_tyler.mp3"></audio> 
         </span>
 
         <!--Game Area-->
         <div class="game-score-block">
             <!--Timer and Final Position-->
             <section class="score-area">
-                <span class= "timer-span" aria-label="timer area">
+                <div class= "timer-span">
                     <h4><i class="fa-solid fa-stopwatch" style="color: #ffffff;"></i> Time:
                         <span class="clock" id="timer"><label id="minutes">00</label>:<label id="seconds">00</label>
                         </span>
@@ -75,13 +75,13 @@
                         <span class="driver-submitted" id="show-name">
                         </span>
                     </h4>
-                </span>
+                </div>
                 <span class="card-driver">
                     <img id="tosubmit" alt="driver photo to upload" width="200">
                 </span>
             </section>
             <!--Cards table section-->
-            <section class="cards-area">
+            <div class="cards-area">
                             <div class="card" data-framework="ferrari">
                                 <img src="./assets/images/pilots/leclerc.avif" alt="Charles Leclerc - Ferrari" class="front-face">
                                 <img src="assets/images/cards-back-3.png" alt="card back" class="back-face">
@@ -131,7 +131,7 @@
                                 <img src="./assets/images/pilots/zhou.avif" alt="Guanyu Zhou - Alfa-Romeo" class="front-face">
                                 <img src="assets/images/cards-back-3.png" alt="card back" class="back-face">
                             </div>
-            </section>
+                        </div>
         </div>
 
     <!-- Hidden section - pop-up window for end game activated via JS -->

@@ -1,5 +1,5 @@
 // retrieve dialog element
-const dialog = document.getElementById('dialog')
+const dialog = document.getElementById('dialog');
 
 // Open Modal 
 function openModal() {
@@ -8,13 +8,13 @@ function openModal() {
 
 
 // transmitting Photo to Div with class="card-driver" in HTML - credit to https://stackoverflow.com/questions/71608101/how-to-fill-a-div-with-an-image-the-user-uploads
-const img = document.getElementById('tosubmit')
+const img = document.getElementById('tosubmit');
 const input = document.getElementById('driver-photo-input');
 input.onchange = function (ev) {
     const file = ev.target.files[0]; // get the file
     const blobURL = URL.createObjectURL(file);
     img.src = blobURL;
-}
+};
 
 // store elapsed time from timer
 let timerCtrl = null; // store the return value of setInterval

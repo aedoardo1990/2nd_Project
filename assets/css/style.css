@@ -95,6 +95,7 @@ main {
 
 #button {
     float: left;
+    width: 30px;
 }
 
 /*Game Block */
