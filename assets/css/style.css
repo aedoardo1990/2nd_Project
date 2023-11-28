@@ -218,15 +218,40 @@ body {
     filter: drop-shadow(30px 10px 10px #313131);
 }
 
-/* style of winning popup - default hidden */
+/* style of popup 1st position - default hidden */
 #popup-pole {
     display: none;
     background-color: #000000;
-    color: gold;
+    color: #d4af37;
+    max-width: 95%;
+    height: 300px;   
+}
+
+/* style of popup 2nd position - default hidden */
+#popup-second {
+    display: none;
+    background-color: #000000;
+    color: #aaa9ad;
     max-width: 95%;
     height: 300px;
-    
-    
+}
+
+/* style of popup 3rd position - default hidden */
+#popup-third {
+    display: none;
+    background-color: #000000;
+    color: #a97142;
+    max-width: 95%;
+    height: 300px;
+}
+
+/* style of popup Out of podium - default hidden */
+#popup-fourth {
+    display: none;
+    background-color: #000000;
+    color: brown;
+    max-width: 95%;
+    height: 300px;
 }
 
 /* Media query: large or landscape phones (576px and up) */

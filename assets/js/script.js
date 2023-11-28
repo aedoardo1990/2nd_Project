@@ -103,24 +103,29 @@ function checkForMatch() {
             var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
             const finishTime = setTimeout(() => {
                 if (totalSeconds < 30) {
-                    console.log('gold');
+                    document.getElementById("popup-pole").style.display = "block";
 
                 }
                 else {
                     if (totalSeconds < 40) {
                         console.log('silver');
+                        document.getElementById("popup-second").style.display = "block";
 
                     }
                     else {
                         if (totalSeconds < 50) {
-                            console.log('bronze');
+                            document.getElementById("popup-third").style.display = "block";
 
+                        }
+                        else {
+                            if (totalSeconds > 50) {
+                            document.getElementById("popup-fourth").style.display = "block";
+                            }
                         }
                     }
                 }
 
                 //should generate onpole popup if time below 30s but not working so far
-                document.getElementById("popup-pole").style.display = "block";
             }, 2000);
         }
     }
