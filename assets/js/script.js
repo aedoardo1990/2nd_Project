@@ -104,7 +104,7 @@ function checkForMatch() {
         const finishTime = setTimeout(() => {
             if (timerCtrl < 30000) {
                 document.getElementById("popup-pole").style.display = "block";} //should generate onpole popup if time below 30s but not working so far
-    };
+        })}
     else { unflipCards(); }
 
 }
@@ -157,10 +157,9 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 
 
 // Assign position to player on grid 
-{ }
+
 
 // Pop up window for Position 
-{ }
 
-// Restart game button 
-{ }
+
+// Restart game button
