@@ -101,10 +101,10 @@ function checkForMatch() {
         disableCards();
         if (matchCounter == (cards.length / 2)) {
          var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
-            setTimeout(function () { document.getElementById("popup-pole").style.display = "block"; }, parseInt(finalTime) <= parseInt(60000));
-
-        }
-    }
+        const finishTime = setTimeout(() => {
+            if (timerCtrl < 30000) {
+                document.getElementById("popup-pole").style.display = "block";} //should generate onpole popup if time below 30s but not working so far
+    };
     else { unflipCards(); }
 
 }
