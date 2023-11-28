@@ -358,7 +358,7 @@ body {
 }
 
     .social-networks {
-        height: 80px;
+        height: 75px;
         font-size: 110%;
         
 }
@@ -424,5 +424,161 @@ body {
     height: calc(34% - 10px);
     margin-left: 2.5%;
     }
+
+    /* Footer */
+    .social-networks {
+    height: 90px;
+    font-size: 120%;
+    }
+
+}
+
+/* Large devices (laptops and desktops, 1024px and up) */
+@media screen and (min-width: 1024px) {
+
+    /* Body */
+    .body {
+    font-size: x-large;
+    }
+
+    /* Form with Submit Info */
+    .start-btn {
+    font-size: 100%;
+    }
+
+    /* Header */
+   .header1 {
+       height: 130px;
+   }
+
+    .logo {
+        height: 130px;
+        width: 11%;
+        margin-left: 9%;
+    }
+
+    .header1-title {
+        margin-left: 17%;
+    }
+
+    /* F1 Music Anthem Toggle*/
+    .button-properties {
+        width: 50px;
+    }
+
+    /* Score Area */
+    .score-area {
+        width: 60%;
+        height: 150%;
+    }
+
+    /* Div Player Box */
+    .card-driver {
+        width: calc(37% - 2px);
+        margin-left: 2.5%;
+    }
+    
+    /* Cards */
+    .card {
+    width: calc(19% - 63px);
+    height: calc(34% - 10px);
+    margin-left: 2.5%;
+}
+
+    /* Footer */
+    .footer {
+        margin-top: 45%;
+    }
+    
+    .social-networks {
+        height: 100px;
+        font-size: 130%;
+    } 
+}
+
+/* Large devices (laptops and desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
+
+    /* Score Area */
+    .score-area {
+        width: 54%;
+        height: 160%;
+    }
+
+    /* Div Player Box */
+   .card-driver {
+        width: calc(32% - 2px);
+        margin-left: 8%;
+    }
+    
+    /* Cards */
+    .card {
+        width: calc(18% - 63px);
+        height: calc(46% - 10px);
+        margin-left: 2.5%;
+    }
+}
+
+/* Large devices (laptops and desktops, 2560px and up) */
+@media screen and (min-width: 2560px) {
+
+    /* Body */
+    .body {
+        font-size: 300%;
+    }
+
+    /* Form with Submit Info */
+    .dialog {
+        max-width: 100%;
+        margin-left: 25%;
+    }
+
+    .start-box-input {
+        height: 60px;
+    }
+
+    /* Header */
+    .header1 {
+        height: 250px;
+    }
+    
+    .logo {
+        height: 250px;
+        margin-left: 10%;
+    }
+
+    /* F1 Music Anthem Toggle*/
+    .button-properties {
+        width: 85px;
+    }
+
+    /* Score Area */
+    .score-area {
+        width: 51%;
+        height: 300%;
+    }
+
+    /* Div Player Box */
+    .card-driver {
+    width: calc(34% - 2px);
+    margin-left: 6%;
+}
+
+    /* Card area*/
+    .card {
+    width: calc(16% - 63px);
+    height: calc(78% - 10px);
+    margin-left: 2.5%;
+}
+
+    /* Footer */
+    .footer {
+    margin-top: 35%;
+}
+    .social-networks {
+    height: 180px;
+    font-size: 150%;
+}
+    
 
 }
