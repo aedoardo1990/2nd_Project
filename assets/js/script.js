@@ -16,16 +16,16 @@ input.onchange = function (ev) {
     img.src = blobURL;
 };
 
-// store elapsed time from timer
+
 let timerCtrl = null; // store the return value of setInterval
 let matchCounter = 0;
+var totalSeconds = 0; 
 
 //Timer - credits to https://stackoverflow.com/questions/69936780/how-to-stop-the-time-automatically-when-all-cards-are-flipped-in-memory-game-usi
 function time() {
     
     var minutesLabel = document.getElementById("minutes");
     var secondsLabel = document.getElementById("seconds");
-    var totalSeconds = 0;
     timerCtrl = setInterval(setTime, 1000);
     dialog.style.display = "none"; // closes the modal when form is submitted
     
@@ -100,13 +100,33 @@ function checkForMatch() {
         matchCounter += 1;
         disableCards();
         if (matchCounter == (cards.length / 2)) {
-         var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
-        const finishTime = setTimeout(() => {
-            if (timerCtrl < 30000) {
-                document.getElementById("popup-pole").style.display = "block";} //should generate onpole popup if time below 30s but not working so far
-        })}
-    else { unflipCards(); }
+            var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
+            const finishTime = setTimeout(() => {
+                if (totalSeconds < 30) {
+                    console.log('gold');
 
+                }
+                else {
+                    if (totalSeconds < 40) {
+                        console.log('silver');
+
+                    }
+                    else {
+                        if (totalSeconds < 50) {
+                            console.log('bronze');
+
+                        }
+                    }
+                }
+
+                //should generate onpole popup if time below 30s but not working so far
+                document.getElementById("popup-pole").style.display = "block";
+            }, 2000);
+        }
+    }
+    else {
+        unflipCards();
+    }
 }
 
 function disableCards() {
