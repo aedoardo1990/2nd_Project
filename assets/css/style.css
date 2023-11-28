@@ -267,8 +267,81 @@ main {
     margin-left: 5%;
     }    
 
+    /* Footer */
     .footer {
         margin-top: 20%;
     }
 }
 
+/*Media query tablet and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+    /* Form with submit Info */
+    .dialog {
+        margin-left: 30%;
+    }
+
+    /* Score Area */
+    .score-area {
+        width: 83%;
+        margin-top: -1%;
+        margin-left: 8%;
+    }
+
+    /* Div Player Box */
+    .card-driver {
+        width: calc(28% - 25px);
+        margin-left: 15.5%;
+    }
+
+    /* Cards */
+    .card {
+        width: calc(40% - 21px);
+        height: calc(58% - 10px);
+        margin-left: 8%;
+}
+
+    /* Footer */
+    .footer {
+        margin-top: 5%;
+}
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* Form with submit Info */
+    .dialog {
+        margin-left: 30%;
+        width: 50%;
+        height: 50%;
+    }
+
+    /* Score Area */
+    .score-area {
+    width: 83%;
+    height: 50%;
+    margin-top: -1%;
+    margin-left: 8%;
+    }
+    
+    /* Div Player Box */
+    .card-driver {
+    width: calc(28% - 25px);
+    margin-left: 15.5%;
+    }
+    
+    /* Cards */
+    .card {
+    width: calc(35% - 21px);
+    height: calc(69% - 10px);
+    margin-left: 11%;
+    }
+
+    /* Footer */
+    .footer {
+    margin-top: 5%;
+    }
+
+}
