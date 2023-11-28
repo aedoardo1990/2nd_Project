@@ -50,7 +50,7 @@ body {
 .form {
     display: grid;
     min-width: auto;
-    min-height: auto;
+    min-height: 50%;
 }
 
 .start-box-heading, 
@@ -528,9 +528,11 @@ body {
     }
 
     /* Form with Submit Info */
-    .dialog {
+    .dialog{
         max-width: 100%;
+        min-height: 50%;
         margin-left: 25%;
+        display: block;
     }
 
     .start-box-input {
@@ -579,6 +581,5 @@ body {
     height: 180px;
     font-size: 150%;
 }
-    
-
+   
 }
