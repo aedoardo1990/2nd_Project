@@ -13,7 +13,7 @@
     <title>F1 - Pole Position!</title>
 </head>
 
-<body>
+<body class="body">
     <!--Start Form - code inspired from https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/blob/main/index.html -->
     <dialog onload="openModal()" class="dialog" id="dialog">
         <h2 class="start-box-heading">Let's drive!</h2>
@@ -38,9 +38,9 @@
     </header>
     <br>
     <!--Main Content-->
-    <main> 
+    <main class="main"> 
         <!--Quick Info to start the game-->
-        <section id="game-info">
+        <section class="game-info">
             <h3>How to be the first starting on the grid?</h3>
             <p>Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will have to start in pole ahead of everyone and of Super Max. </p>
             <br>
@@ -55,8 +55,8 @@
             
         </section>
         <!--Button to play F1 Anthem-->
-        <span id="player"><strong>Play and get ready in your car!</strong>
-            <img id="button" onclick="togglePlay()" src="assets/images/circle-play-regular.svg" alt="anthem formula1">
+        <span class="player"><strong>Play and get ready in your car!</strong>
+            <img id="button" class="button-properties" onclick="togglePlay()" src="assets/images/circle-play-regular.svg" alt="anthem formula1">
             <audio src="assets/audio/f1_theme_brian_tyler.mp3"></audio> 
         </span>
 
@@ -146,7 +146,7 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-            <ul id="social-networks">
+            <ul class="social-networks">
                 <li>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                         aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"
