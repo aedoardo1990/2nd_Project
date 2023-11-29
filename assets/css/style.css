@@ -247,6 +247,7 @@ body {
 
 /* style of popup Out of podium - default hidden */
 #popup-fourth {
+    display: none;
     position: fixed;
     top: 40%;
     border-radius: 10px;
