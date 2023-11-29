@@ -47,9 +47,9 @@
             <br>
             <p>You will be able to qualify in the following positions by stopping the timer accordingly:</p>
                 <ul class="finish-times">
-                    <li><i class="fa-solid fa-medal" style="color: #d4af37;"></i><strong>1st</strong> Time equal or less than 20s</li>
-                    <li><i class="fa-solid fa-medal" style="color: #aaa9ad;"></i><strong>2nd</strong> Time equal or less than 30s</li>
-                    <li><i class="fa-solid fa-medal" style="color: #a97142;"></i><strong>3rd</strong> Time equal or less than 40s</li>
+                    <li><i class="fa-solid fa-trophy" style="color: #d4af37;"></i><strong>1st</strong> Time equal or less than 20s</li>
+                    <li><i class="fa-solid fa-trophy" style="color: #aaa9ad;"></i><strong>2nd</strong> Time equal or less than 30s</li>
+                    <li><i class="fa-solid fa-trophy" style="color: #a97142;"></i><strong>3rd</strong> Time equal or less than 40s</li>
                 </ul> 
             <br>
             <p>If you don't know the Formula1 drivers and its teams, you can have an in-depth look on the official site of <a href="https://www.formula1.com/en/teams.html" target="_blank" rel="noopener" aria-label="Visit the Formula1 page (opens in a new tab)">Formula1</a>.</p>
@@ -141,34 +141,42 @@
     <!-- Hidden section - pop-up windows for end game activated via JS -->
     <!--pop-up window - Finish position 1st -->
     <div id="popup-pole" class="popup-end-game">
+        <div class="position-phrase"></div>
         <p>You are on Pole!</p>
-        <p>1st</p>
+        <p>1st <i class="fa-solid fa-trophy" style="color: #d4af37;"></i></p>
+        </div>
         <br>
-        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart()">Drive again!</button>
+        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart(); resetTimer()">Drive again!</button>
     </div>
 
     <!--pop-up window - Finish position 2nd -->
     <div id="popup-second" class="popup-end-game">
+        <div class="position-phrase"></div>
         <p>You are Second!</p>
-        <p>2nd</p>
+        <p>2nd <i class="fa-solid fa-trophy" style="color: #aaa9ad;"></i></p>
+        </div>
         <br>
-        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart()">Drive again!</button>
+        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart(); resetTimer()">Drive again!</button>
     </div>
 
     <!--pop-up window - Finish position 3rd -->
     <div id="popup-third" class="popup-end-game">
+        <div class="position-phrase">
         <p>You are Third!</p>
-        <p>3rd</p>
+        <p>3rd <i class="fa-solid fa-trophy" style="color: #a97142;"></i></p>
+        </div>
         <br>
-        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart()">Drive again!</button>
+        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart(); resetTimer()">Drive again!</button>
     </div>
 
     <!--pop-up window - Finish position: Out of podium -->
     <div id="popup-fourth" class="popup-end-game">
+        <div class="position-phrase"></div>
         <p>You are out of podium...</p>
         <p>Retry!</p>
+        <div class="position-phrase"></div>
         <br>
-        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart()">Drive again!</button>
+        <button class="restart-btn" id="restart-btn" type="submit" onclick="reStart(); resetTimer()">Drive again!</button>
     </div>
     </main>
     <!--Footer-->

@@ -19,16 +19,16 @@ input.onchange = function (ev) {
 
 let timerCtrl = null; // store the return value of setInterval
 let matchCounter = 0;
-var totalSeconds = 0; 
+var totalSeconds = 0;
 
 //Timer - credits to https://stackoverflow.com/questions/69936780/how-to-stop-the-time-automatically-when-all-cards-are-flipped-in-memory-game-usi
 function time() {
-    
+
     var minutesLabel = document.getElementById("minutes");
     var secondsLabel = document.getElementById("seconds");
+
     timerCtrl = setInterval(setTime, 1000);
     dialog.style.display = "none"; // closes the modal when form is submitted
-    
 
     function setTime() {
         ++totalSeconds;
@@ -199,9 +199,15 @@ function reStart() {
     // set matching cards to 0 
     matchCounter = 0;
 
-    // set timer to 0
-    clearTimeout(finishTime);
+    // remove position
+    document.getElementById("show-position").innerHTML = ""; 
+
+    // reset timer 
+    document.getElementById("restart-btn").addEventListener("click", resetTimer);
+
+    function resetTimer() {
+        document.getElementById("minutes").innerHTML = "00";
+        document.getElementById("seconds").innerHTML = "00";
+        totalSeconds = 0;
+    }
 }
-
-
-

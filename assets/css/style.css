@@ -251,6 +251,10 @@ body {
     margin-left: 5%;
 }
 
+.position-phrase {
+    text-align: center;
+}
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
