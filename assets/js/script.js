@@ -101,26 +101,26 @@ function checkForMatch() {
         disableCards();
         if (matchCounter == (cards.length / 2)) {
             var finalTime = clearInterval(timerCtrl); // it will stop the timer when all cards are uncovered
-            const finishTime = setTimeout(() => {
-                if (totalSeconds < 30) {
+            var finishTime = setTimeout(() => {
+                if (totalSeconds < 20) {
                     document.getElementById("popup-pole").style.display = "block";
                     document.getElementById("show-position").innerHTML = "1st";
                 }
                 else {
-                    if (totalSeconds < 40) {
+                    if (totalSeconds < 30) {
                         console.log('silver');
                         document.getElementById("popup-second").style.display = "block";
                         document.getElementById("show-position").innerHTML = "2nd";
 
                     }
                     else {
-                        if (totalSeconds < 50) {
+                        if (totalSeconds < 40) {
                             document.getElementById("popup-third").style.display = "block";
                             document.getElementById("show-position").innerHTML = "3rd";
 
                         }
                         else {
-                            if (totalSeconds > 50) {
+                            if (totalSeconds > 40) {
                             document.getElementById("popup-fourth").style.display = "block";
                             document.getElementById("show-position").innerHTML = "Out of podium";
 
@@ -200,7 +200,7 @@ function reStart() {
     matchCounter = 0;
 
     // set timer to 0
-
+    clearTimeout(finishTime);
 }
 
 
