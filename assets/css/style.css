@@ -199,11 +199,14 @@ body {
     border-radius: 10px;
     background-color: #000000;
     color: #d4af37;
+    border: 2px solid #d4af37;
+    outline: 3px solid #000000;
     width: 270px;
     height: 200px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
+    font-size: 150%;
 }
 
 /* style of popup 2nd position - default hidden */
@@ -214,11 +217,14 @@ body {
     border-radius: 10px;
     background-color: #000000;
     color: #aaa9ad;
+    border: 2px solid #aaa9ad;
+    outline: 3px solid #000000;
     width: 270px;
     height: 200px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
+    font-size: 150%;
 }
 
 /* style of popup 3rd position - default hidden */
@@ -229,30 +235,36 @@ body {
     border-radius: 10px;
     background-color: #000000;
     color: #a97142;
+    border: 2px solid #a97142;
+    outline: 3px solid #000000;
     width: 270px;
     height: 200px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
+    font-size: 150%;
 }
 
 /* style of popup Out of podium - default hidden */
 #popup-fourth {
-    display: none;
     position: fixed;
     top: 40%;
     border-radius: 10px;
     background-color: #000000;
     color: brown;
+    border: 2px solid brown;
+    outline: 3px solid #000000;
     width: 270px;
     height: 200px;
     text-align: center;
     text-transform: uppercase;
     margin-left: 5%;
+    font-size: 150%;
 }
 
 .position-phrase {
-    text-align: center;
+    margin-top: 7%;
+    
 }
 
 
