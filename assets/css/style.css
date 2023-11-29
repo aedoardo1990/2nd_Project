@@ -195,64 +195,66 @@ body {
     list-style-type: none;
 }
 
-/* Pop up Window - End Game */
-
-.popup-end-game {
-    margin: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    min-width: 345px;
-    max-width: 400px;
-    height: auto;
-    border: 5px solid gold;
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 20px;
-    background: rgba(251, 229, 187, 1);
-    font-weight: 900;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    filter: drop-shadow(30px 10px 10px #313131);
-}
-
 /* style of popup 1st position - default hidden */
 #popup-pole {
     display: none;
+    position: fixed;
+    top: 40%;
+    border-radius: 10px;
     background-color: #000000;
     color: #d4af37;
-    max-width: 95%;
-    height: 300px;   
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 5%;
 }
 
 /* style of popup 2nd position - default hidden */
 #popup-second {
     display: none;
+    position: fixed;
+    top: 40%;
+    border-radius: 10px;
     background-color: #000000;
     color: #aaa9ad;
-    max-width: 95%;
-    height: 300px;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 5%;
 }
 
 /* style of popup 3rd position - default hidden */
 #popup-third {
     display: none;
+    position: fixed;
+    top: 40%;
+    border-radius: 10px;
     background-color: #000000;
     color: #a97142;
-    max-width: 95%;
-    height: 300px;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 5%;
 }
 
 /* style of popup Out of podium - default hidden */
 #popup-fourth {
     display: none;
+    position: fixed;
+    top: 40%;
+    border-radius: 10px;
     background-color: #000000;
     color: brown;
-    max-width: 95%;
-    height: 300px;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 5%;
 }
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {

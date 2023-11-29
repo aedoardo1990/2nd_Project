@@ -104,22 +104,26 @@ function checkForMatch() {
             const finishTime = setTimeout(() => {
                 if (totalSeconds < 30) {
                     document.getElementById("popup-pole").style.display = "block";
-
+                    document.getElementById("show-position").innerHTML = "1st";
                 }
                 else {
                     if (totalSeconds < 40) {
                         console.log('silver');
                         document.getElementById("popup-second").style.display = "block";
+                        document.getElementById("show-position").innerHTML = "2nd";
 
                     }
                     else {
                         if (totalSeconds < 50) {
                             document.getElementById("popup-third").style.display = "block";
+                            document.getElementById("show-position").innerHTML = "3rd";
 
                         }
                         else {
                             if (totalSeconds > 50) {
                             document.getElementById("popup-fourth").style.display = "block";
+                            document.getElementById("show-position").innerHTML = "Out of podium";
+
                             }
                         }
                     }
