@@ -128,8 +128,6 @@ function checkForMatch() {
                         }
                     }
                 }
-
-                //should generate onpole popup if time below 30s but not working so far
             }, 2000);
         }
     }
@@ -171,24 +169,30 @@ function resetBoard() {
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
+// retrieve restart button 
+let restartBtn = document.getElementById('restart-btn');
 
-// Assign 1st position + pop up window - if player finishes within 10 second
+//retrieve end game pop up window 1st
+let popEnd1 = document.getElementById('popup-pole');
 
+//retrieve end game pop up window 2nd
+let popEnd2 = document.getElementById('popup-second');
 
-// Assign 2nd position + pop up window - if player finishes within 20 second
+//retrieve end game pop up window 3rd
+let popEnd3 = document.getElementById('popup-third');
 
-
-// Assign 3rd position + pop up window - if player finishes within 30 second
-
-
-// Assign 4th position + pop up window - if player finishes within 40 second
-
-
-
-// Assign position to player on grid 
-
-
-// Pop up window for Position 
-
+//retrieve end game pop up window 'Out of podium'
+let popEnd4 = document.getElementById('popup-fourth');
 
 // Restart game button
+function reStart() {
+    document.addEventListener('click', restartBtn);
+    popEnd1.style.display = "none";
+    popEnd2.style.display = "none";
+    popEnd3.style.display = "none";
+    popEnd4.style.display = "none";
+
+
+
+
+}
