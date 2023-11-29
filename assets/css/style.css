@@ -267,6 +267,19 @@ body {
     
 }
 
+.restart-btn {
+    color: white;
+    border: solid white;
+    background-color: black;
+    border-radius: 7px;
+    height: 12%;
+    width: 35%;
+}
+
+.restart-btn:hover {
+    color: green;
+}
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
