@@ -186,13 +186,22 @@ let popEnd4 = document.getElementById('popup-fourth');
 
 // Restart game button
 function reStart() {
+    //close end game pop up window when clicking restart button 
     document.addEventListener('click', restartBtn);
     popEnd1.style.display = "none";
     popEnd2.style.display = "none";
     popEnd3.style.display = "none";
     popEnd4.style.display = "none";
 
+    // flip all cards back again - credit to https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/blob/main/assets/js/script.js
+    cards.forEach(card => card.classList.remove('flip'));
 
+    // set matching cards to 0 
+    matchCounter = 0;
 
+    // set timer to 0
 
 }
+
+
+
