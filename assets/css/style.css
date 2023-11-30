@@ -195,72 +195,76 @@ body {
 #popup-pole {
     display: none;
     position: fixed;
-    top: 40%;
     border-radius: 10px;
     background-color: #000000;
     color: #d4af37;
     border: 2px solid #d4af37;
     outline: 3px solid #000000;
-    width: 270px;
-    height: 200px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 5%;
     font-size: 150%;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
 
 /* style of popup 2nd position - default hidden */
 #popup-second {
     display: none;
     position: fixed;
-    top: 40%;
     border-radius: 10px;
     background-color: #000000;
     color: #aaa9ad;
     border: 2px solid #aaa9ad;
     outline: 3px solid #000000;
-    width: 270px;
-    height: 200px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 5%;
     font-size: 150%;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
 
 /* style of popup 3rd position - default hidden */
 #popup-third {
     display: none;
     position: fixed;
-    top: 40%;
     border-radius: 10px;
     background-color: #000000;
     color: #a97142;
     border: 2px solid #a97142;
     outline: 3px solid #000000;
-    width: 270px;
-    height: 200px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 5%;
     font-size: 150%;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
 
 /* style of popup Out of podium - default hidden */
 #popup-fourth {
     display: none;
     position: fixed;
-    top: 40%;
     border-radius: 10px;
     background-color: #000000;
     color: brown;
     border: 2px solid brown;
     outline: 3px solid #000000;
-    width: 270px;
-    height: 200px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 5%;
     font-size: 150%;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
 }
 
 .position-phrase {
@@ -273,8 +277,7 @@ body {
     border: solid white;
     background-color: black;
     border-radius: 7px;
-    height: 12%;
-    width: 35%;
+    font-size: 45%;
 }
 
 .restart-btn:hover {
@@ -312,14 +315,14 @@ body {
     }
 
     .score-area {
-    margin-top: -1%;
-    width: 75%;
-    margin-left: 12%;
+        margin-top: -1%;
+        width: 60%;
+        margin-left: 19%;
     }
 
     /* Div Player Box */
     .card-driver {    
-    width: calc(39% - 24px);
+    width: calc(41% - 24px);
     margin-left: 6%;
     }
 
@@ -382,15 +385,15 @@ body {
     }
 
     .score-area {
-        width: 75%;
+        width: 55%;
         margin-top: -1%;
         margin-left: 3%;
     }
 
     /* Div Player Box */
     .card-driver {
-        width: calc(33% - 25px);
-        margin-left: 11%;
+        width: calc(37% - 25px);
+        margin-left: 8.5%;
         height: 98%;
     }
 
@@ -459,8 +462,8 @@ body {
 
     /* Score Area */
     .score-area {
-    width: 60%;
-    height: 120%;
+    width: 50%;
+    height: 130%;
     margin-top: -1%;
     margin-left: 3%;
     }
@@ -469,6 +472,7 @@ body {
     .card-driver {
     width: calc(32% - 2px);
     margin-left: 8%;
+    height: 98%;
     }
     
     /* Cards */
@@ -521,14 +525,14 @@ body {
 
     /* Score Area */
     .score-area {
-        width: 60%;
+        width: 51%;
         height: 150%;
     }
 
     /* Div Player Box */
     .card-driver {
-        width: calc(37% - 2px);
-        margin-left: 2.5%;
+        width: calc(35% - 2px);
+        margin-left: 4.5%;
     }
     
     /* Cards */
@@ -554,7 +558,7 @@ body {
 
     /* Score Area */
     .score-area {
-        width: 54%;
+        width: 43%;
         height: 160%;
     }
 
@@ -614,7 +618,7 @@ body {
 
     /* Score Area */
     .score-area {
-        width: 51%;
+        width: 43%;
         height: 300%;
     }
 
@@ -622,6 +626,7 @@ body {
     .card-driver {
     width: calc(34% - 2px);
     margin-left: 6%;
+    height: 99%;
 }
 
     /* Card area*/

@@ -121,7 +121,7 @@ function checkForMatch() {
                         }
                         else {
                             if (totalSeconds > 40) {
-                            document.getElementById("popup-fourth").style.display = "block";
+                                document.getElementById("popup-fourth").style.display = "block";
                             document.getElementById("show-position").innerHTML = "Out of podium";
 
                             }
