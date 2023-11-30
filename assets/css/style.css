@@ -589,7 +589,12 @@ body {
     }
 
     .start-box-input {
-        height: 60px;
+        height: 120%;
+        font-size: 70%
+    }
+
+    .start-btn {
+        font-size: 90%;
     }
 
     /* Header */
