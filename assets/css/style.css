@@ -117,11 +117,12 @@ body {
 
 /* Div Player Box */
 .card-driver {
-    border: #e10600 solid 4px;
-    border-radius: 5px;
-    width: calc(47% - 20px);
+    border: #e10600 solid 10px;
+    border-radius: 10px;
+    width: calc(43% - 20px);
     height: 140px;
     flex-wrap: wrap;
+    margin-left: 2.5%;
 }
 
 .card-driver img {
@@ -391,9 +392,10 @@ body {
 
     /* Div Player Box */
     .card-driver {
-        width: calc(37% - 25px);
-        margin-left: 8.5%;
+        width: calc(35% - 25px);
+        margin-left: 10%;
         height: 98%;
+        border: #e10600 solid 8px;
     }
 
     /* Cards */
@@ -410,7 +412,6 @@ body {
     .front-face,
     .back-face {
             padding: 8px;
-            border-radius: 10px;
 }
 
 
@@ -476,8 +477,8 @@ body {
     
     /* Div Player Box */
     .card-driver {
-    width: calc(32% - 2px);
-    margin-left: 8%;
+    width: calc(30% - 2px);
+    margin-left: 9.5%;
     height: 98%;
     }
     
@@ -533,12 +534,15 @@ body {
     .score-area {
         width: 51%;
         height: 150%;
+        border: 4px solid #ffffff;
+        outline: 5px solid #000000;
     }
 
     /* Div Player Box */
     .card-driver {
-        width: calc(35% - 2px);
-        margin-left: 4.5%;
+        width: calc(33% - 2px);
+        margin-left: 6.5%;
+        border: #e10600 solid 9px;
     }
     
     /* Cards */
@@ -550,8 +554,7 @@ body {
 
     .front-face,
     .back-face {
-            padding: 7px;
-            border-radius: 10px;
+            padding: 9px;
     }
     
 
@@ -577,8 +580,9 @@ body {
 
     /* Div Player Box */
    .card-driver {
-        width: calc(32% - 2px);
-        margin-left: 8%;
+        width: calc(30% - 2px);
+        margin-left: 9.5%;
+        border: #e10600 solid 12px;
     }
     
     /* Cards */
@@ -590,8 +594,7 @@ body {
 
     .front-face,
     .back-face {
-        padding: 10px;
-        border-radius: 10px;
+        padding: 12px;
     }
 }
 
@@ -639,13 +642,16 @@ body {
     .score-area {
         width: 43%;
         height: 300%;
+        border: 6px solid #ffffff;
+        outline: 7px solid #000000;
     }
 
     /* Div Player Box */
     .card-driver {
-    width: calc(34% - 2px);
-    margin-left: 6%;
+    width: calc(30% - 2px);
+    margin-left: 9.5%;
     height: 99%;
+    border: #e10600 solid 20px;
 }
 
     /* Card area*/
@@ -658,7 +664,6 @@ body {
 .front-face,
 .back-face {
     padding: 20px;
-    border-radius: 10px;
 }
     /* Footer */
     .footer {
