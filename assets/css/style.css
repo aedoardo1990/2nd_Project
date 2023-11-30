@@ -147,7 +147,6 @@ body {
     margin: 5px;
     margin-left: 3.5%;
     position: relative;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform .5s;
@@ -164,7 +163,7 @@ body {
 .back-face {
     width: 100%;
     height: 100%;
-    padding: 6px;
+    padding: 10px;
     position: absolute;
     border-radius: 10px;
     background: #e10600;
@@ -408,6 +407,13 @@ body {
         margin-left: 3%;
 }
 
+    .front-face,
+    .back-face {
+            padding: 8px;
+            border-radius: 10px;
+}
+
+
     /* Footer */
     .footer {
         margin-top: 35%;
@@ -545,7 +551,7 @@ body {
     .front-face,
     .back-face {
             padding: 7px;
-            border-radius: 8px;
+            border-radius: 10px;
     }
     
 
@@ -585,7 +591,7 @@ body {
     .front-face,
     .back-face {
         padding: 10px;
-        border-radius: 8px;
+        border-radius: 10px;
     }
 }
 
@@ -651,8 +657,8 @@ body {
 
 .front-face,
 .back-face {
-    padding: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 10px;
 }
     /* Footer */
     .footer {
