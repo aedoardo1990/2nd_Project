@@ -35,6 +35,11 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [Soundtrack for the winner](#soundtrack-for-the-winner)
     - [Drive again button](#drive-again-button)
   - [Features left to implement](#features-left-to-implement)
+    - [Circuit option](#circuit-option)
+    - [Car option](#car-option)
+    - [Different levels of difficulty](#different-levels-of-difficulty)
+    - [All the F1 pilots cards](#all-the-f1-pilots-cards)
+    - [F1 Ceremony for the winner](#f1-ceremony-for-the-winner)
 
 <!--Toc stop-->
 
@@ -178,7 +183,7 @@ Then a window will pop up and display the final position with the matching color
 
 ### Soundtrack for the winner
 
-The soundtrack - "Les Toreadors" of Georges Bizet -  is the theme that you can hear at the end of a F1 Grand Prix when the winners ceremony with champagne takes place. Click <a href="https://www.youtube.com/watch?v=SpL9iaFM0C4" target="_blank" rel="noopener" aria-label="Check the Youtube video of the F1 Podium Ceremony (opens in a new tab)"></a>here to check a F1 Podium ceremony. 
+The soundtrack - "Les Toreadors" of Georges Bizet -  is the theme that you can hear at the end of a F1 Grand Prix when the winners ceremony with champagne takes place. Click <a href="https://www.youtube.com/watch?v=SpL9iaFM0C4" target="_blank" rel="noopener" aria-label="Check the Youtube video of the F1 Podium Ceremony (opens in a new tab)">here</a> to check a F1 Podium ceremony. 
 The Sountrack aims at recreating the atmosphere of F1. 
 
 ### Drive again button
@@ -187,8 +192,33 @@ When the end of game window pops up, there is a button that will allow to play a
 
 ![Drive again button](./assets/images/readme-images/drive-again-button.png)
 
-
 ## Features left to implement
+
+### Circuit option      
+
+Option to choose from the Start Modal on which circuit of the F1 World Championship to drive. 
+
+### Car option  
+
+Option to choose from the Start Modal for which team/car of the F1 World Championship to qualify. 
+
+
+
+### Different levels of difficulty
+
+The positioning at the end of the race already represents a different level of difficulty according to the position. However, in the future it would be nice to add different levels of difficulty to choose from in the Modal that loads at the start. Levels of difficulty would be divided accordingly: Beginner, Intermediate, Pro. 
+
+### All the F1 pilots cards 
+
+F1 World Championship has 10 teams and 20 pilots (2 pilots per team). The game includes its most prestigious ones, for a total of 6 teams and 12 pilots. For reasons of space (especially for the mobile version) I preferred to opt for a reduction of the amount of pilots. 
+It would be nice to include all the teams and pilots. This should go together most likely with using Flexbox Grid, in order to optimize the screen space. 
+
+### F1 Ceremony for the winner 
+
+Including a video of the typical podium F1 ceremony based on champagne that would be part of the pop up window for the winner. 
+
+
+
 
 
 
