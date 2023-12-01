@@ -321,11 +321,11 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 | access a website that it is easy to navigate and with some interactive features.| navigate easily the site and find some nice interactive features such as the sountracks and the flipping cards. |
 | want to hear the Formula 1 anthem to get adrenaline for the game.| can't stop to hear the F1 anthem, since it makes me feel the adrenaline of F1 racing.|
 | a site where I can play with the cards of the pilots of Formula 1. | can play with the cards of the most pregious teams of F1. |
-| feel the atmosphere of Formula 1 races through a website with captivating design. | recognize the logo, the pilots and soundtracks of F1, I can feel the atmosphere a Grand Prix. |
+| feel the atmosphere of Formula 1 races through a website with captivating design. | recognize the logo, the pilots and soundtracks of F1, I can feel the atmosphere of a Grand Prix. |
 | have a game based on time speed. | see a timer with my gaming time. It is not so easy to get the Pole Position but I love the challenge. |
 | know my final position at the end of the game. | see the final position at the end of the game. |
 | get a congratulation message if I'll finish on podium.| get a different message at the end of the game according to my position. |
-| get a congratulation message with music if I'll finish first. | hear the famous music of F1 podium ceremony when I finish first. |
+| get a congratulation message with music if I'll finish first. | get a congratulation message and hear the famous music of F1 podium ceremony when I finish first. |
 | have the option to play again after the end of the game.| can restart the game by clicking the button "Drive again!" |
 | keep updated about new features of the site by accessing the social media links. | can check on the social media pages whenever there are new features for the game. |
 
