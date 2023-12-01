@@ -84,7 +84,6 @@ body {
 
 }
 
-
 /* F1 Music Anthem Toggle*/
 .button-properties {
     float: left;
@@ -115,7 +114,6 @@ body {
     width: 60%;
     flex-wrap: wrap;
 }
-
 
 /* Div Player Box */
 .card-driver {
@@ -155,12 +153,11 @@ body {
     transition: transform .5s;
     }
 
-    /*pseudo class will be triggered every time the element gets clicked and will apply a .2s transition to its size:*/
+/* pseudo class will be triggered every time the element gets clicked and will apply a .2s transition to its size: */
 .card:active {
     transform: scale(0.97);
     transition: transform .2s;
 }
-
 
 .front-face,
 .back-face {
@@ -289,7 +286,7 @@ body {
 /* Audio for the winner - default hidden */
  #winner-song {
      display: none
- }
+}
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -335,7 +332,7 @@ body {
     /* Cards */
    .cards-area {
     margin-left: 10.5%;
-}
+    }
     .card {
     width: calc(30% - 21px);
     height: calc(32% - 10px);
@@ -413,24 +410,23 @@ body {
         width: calc(19% - 46px);
         height: calc(25% - 2px);
         margin-left: 3%;
-}
+    }
 
     .front-face,
     .back-face {
             padding: 8px;
-}
-
+    }
 
     /* Footer */
     .footer {
         margin-top: 24%;
-}
+    }
 
     .social-networks {
         height: 75px;
         font-size: 110%;
         
-}
+    }
 
 }
 
@@ -456,7 +452,7 @@ body {
     /* Header */
    .header1 {
     height: 110px;
-   }
+    }
 
     .logo {
     height: 110px;
@@ -466,7 +462,7 @@ body {
 
    .header1-title {
     margin-left: 20%;
-}
+    }
 
     /* F1 Music Anthem Toggle*/
     .button-properties {
@@ -567,7 +563,6 @@ body {
             padding: 9px;
     }
     
-
     /* Footer */
     .footer {
         margin-top: 28%;
@@ -680,13 +675,15 @@ body {
 .back-face {
     padding: 20px;
 }
+
     /* Footer */
     .footer {
     margin-top: 28%;
 }
+
     .social-networks {
     height: 180px;
     font-size: 150%;
 }
-   
+
 }

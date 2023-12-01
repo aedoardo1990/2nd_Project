@@ -6,7 +6,6 @@ function openModal() {
     dialog.showModal();
 }
 
-
 // transmitting Photo to Div with class="card-driver" in HTML - credit to https://stackoverflow.com/questions/71608101/how-to-fill-a-div-with-an-image-the-user-uploads
 const img = document.getElementById('tosubmit');
 const input = document.getElementById('driver-photo-input');
@@ -15,7 +14,6 @@ input.onchange = function (ev) {
     const blobURL = URL.createObjectURL(file);
     img.src = blobURL;
 };
-
 
 let timerCtrl = null; // store the return value of setInterval
 let matchCounter = 0;
@@ -92,7 +90,6 @@ function flipCard() {
     checkForMatch();
 }
 
-
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
 
@@ -113,19 +110,16 @@ function checkForMatch() {
                         console.log('silver');
                         document.getElementById("popup-second").style.display = "block";
                         document.getElementById("show-position").innerHTML = "2nd";
-
                     }
                     else {
                         if (totalSeconds < 40) {
                             document.getElementById("popup-third").style.display = "block";
                             document.getElementById("show-position").innerHTML = "3rd";
-
                         }
                         else {
                             if (totalSeconds > 40) {
                                 document.getElementById("popup-fourth").style.display = "block";
                             document.getElementById("show-position").innerHTML = "Out of podium";
-
                             }
                         }
                     }
