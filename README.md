@@ -277,7 +277,16 @@ No errors after checking the code with W3C Jigsaw CSS Validator. There is just o
 
 ### JSHint-Validator
 
-TO DO
+When I first tried to validate the JS code, there were many of the following errors. 
+
+<img src="./assets/images/readme-images/js-es6-warning.png" width="200" height="350">
+
+After writing the comment /*jshint esversion: 6*/ at the top of the file, almost all warnings disappeared.
+
+According to the final validation (image below) there 6 unused variables and one warning left. I tried to the delete the mentioned variables from the script.js file but then the website was not working correctly. Therefore, I did not take further action.
+
+<img src="./assets/images/readme-images/jshint-validator.png" width="575" height="280">
+
 
 ### Lighthouse testing
 
