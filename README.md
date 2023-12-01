@@ -319,7 +319,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 | know who is Super Max. | can get more information about Super Max by clicking on the link redirecting to his Wikipedia page. |
 | be able to enter my driver/player name, my photo and to have them displayed in the site.| can enter my driver/player name and photo and feel ready to drive! |
 | access a website that it is easy to navigate and with some interactive features.| navigate easily the site and find some nice interactive features such as the sountracks and the flipping cards. |
-| want to hear the Formula 1 anthem to get adrenaline for the game.| can't stop to hear the F1 anthem, since it makes me feel the adrenaline of F1 racing.|
+| want to hear the Formula 1 anthem to get adrenaline for the game.| can't stop to hear the F1 anthem, since it makes me feel the adrenaline of F1 racing. I can play and pause the audio. |
 | a site where I can play with the cards of the pilots of Formula 1. | can play with the cards of the most pregious teams of F1. |
 | feel the atmosphere of Formula 1 races through a website with captivating design. | recognize the logo, the pilots and soundtracks of F1, I can feel the atmosphere of a Grand Prix. |
 | have a game based on time speed. | see a timer with my gaming time. It is not so easy to get the Pole Position but I love the challenge. |
