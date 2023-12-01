@@ -423,7 +423,7 @@ body {
 
     /* Footer */
     .footer {
-        margin-top: 35%;
+        margin-top: 24%;
 }
 
     .social-networks {
@@ -496,6 +496,10 @@ body {
     }
 
     /* Footer */
+    .footer {
+        margin-top: 26%;
+    }
+
     .social-networks {
     height: 90px;
     font-size: 120%;
@@ -566,7 +570,7 @@ body {
 
     /* Footer */
     .footer {
-        margin-top: 45%;
+        margin-top: 28%;
     }
     
     .social-networks {
@@ -601,6 +605,11 @@ body {
     .front-face,
     .back-face {
         padding: 12px;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 25%;
     }
 }
 
@@ -673,7 +682,7 @@ body {
 }
     /* Footer */
     .footer {
-    margin-top: 35%;
+    margin-top: 28%;
 }
     .social-networks {
     height: 180px;
