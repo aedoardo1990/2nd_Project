@@ -42,6 +42,7 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [Different levels of difficulty](#different-levels-of-difficulty)
     - [All the F1 pilots cards](#all-the-f1-pilots-cards)
     - [F1 Ceremony for the winner](#f1-ceremony-for-the-winner)
+    - [Background of the cards](#background-of-the-cards)
   - [Testing](#testing)
     - [HTML-W3C-Validator](#html-w3c-validator)
     - [CSS-Validator](#css-validator)
@@ -54,6 +55,8 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [Fixed bugs](#fixed-bugs)
       - [Pilots images not loading on Edge Browser](#pilots-images-not-loading-on-edge-browser)
     - [Unfixed bugs](#unfixed-bugs)
+      - [Sample Image in Score Area](#sample-image-in-score-area)
+      - [Flexbox on large screens](#flexbox-on-large-screens)
   - [Technologies used](#technologies-used)
     - [Languages](#languages)
     - [Programs used](#programs-used)
@@ -250,19 +253,27 @@ It would be nice to include all the teams and pilots. This should go together mo
 
 Including a video of the typical podium F1 ceremony based on champagne that would be part of the pop up window for the winner.
 
+### Background of the cards
+
+The background of the cards could look like the starting grid of a Formula1 circuit seen from above. It might look as following. 
+
+<img src="./assets/images/readme-images/starting-grid.png" width="575" height="150">
+
+The background grid is as well the reason why the cards are on two rows as well on big screens. The structures in 2 rows would aim at reminding that the pilots are on the starting grid. 
+
 ## Testing
 
 ### HTML-W3C-Validator
 
 The result of the W3C Validator is all correct, no errors.
 
-<img src="./assets/images/readme-images/HTML-Validator.png" width="575" height="280">
+<img src="./assets/images/readme-images/html-validator.png" width="575" height="280">
 
 ### CSS-Validator
 
 No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
-<img src="./assets/images/readme-images/CSS-Validator.png" width="575" height="280">
+<img src="./assets/images/readme-images/css-validator.png" width="575" height="280">
 
 ### JSHint-Validator
 
@@ -298,10 +309,17 @@ The images of the pilots on the front of the cards were not loading just on Micr
 
 ### Unfixed bugs
 
+#### Sample Image in Score Area 
+
 The sample image in the Score Area with Max Verstappen and the helmet is often not displayed when the website loads. There are instead never issues regarding the player photo that is uploaded in the same box.
 
 <img src="./assets/images/readme-images/unfixed-bug.png" width="575" height="250">
 
+#### Flexbox on large screens
+
+The cards are organized in 2 rows, vertical on screens of 320px and 576px, horizontal from 768px and up. The horizontal position works well on big screens, but when zooming the flexbox might switch to 3 lines. This might be resolved in the future by using Flexbox Grid. 
+
+<img src="./assets/images/readme-images/flexbox-bug.png" width="575" height="300">
 
 ## Technologies used
 
