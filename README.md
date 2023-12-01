@@ -1,8 +1,8 @@
 # F1 - Pole Position
 
-Welcome to F1 - Pole Position! It is a Memory Card Game for fans of Formula 1 or fans of online games. Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will have to start in pole ahead of everyone and of Super Max - alias Max Verstappen.
+Welcome to F1 - Pole Position! This is a Memory Card Game for fans of Formula 1 and of online games. Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will have to start in pole ahead of everyone and of Super Max - alias Max Verstappen.
 
-In Formula1 racing and other motorsport races, the pole position is usually the best and "statistically the most advantageous" starting position on the track. The driver starting on pole is the one that qualifies with the fastest lap on the day before the race.
+In Formula 1 racing and other motorsport races, the pole position is usually the best and "statistically the most advantageous" starting position on the track. The driver starting on pole is the one that qualifies with the fastest lap on the day before the race.
 
 The link to our Live Website can be found here - [F1 - Pole Position!](https://aedoardo1990.github.io/F1_PolePosition/).
 
@@ -27,7 +27,7 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [The logo and the header](#the-logo-and-the-header)
     - [Game rules](#game-rules)
       - [Super Max](#super-max)
-      - [Formula1 pilots and teams](#formula1-pilots-and-teams)
+      - [Formula 1 pilots and teams](#formula-1-pilots-and-teams)
     - [The Official F1 Anthem](#the-official-f1-anthem)
     - [The score area](#the-score-area)
     - [Back image of the cards](#back-image-of-the-cards)
@@ -74,7 +74,7 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
 
 ### Target audience
 
-The F1 - Pole Position! Website targets an audience of people interested in racing car online games - especially fans of Formula 1 - and in general at reaching people interested in sport online games as a hobby.
+The F1 - Pole Position! Website targets an audience of people interested in racing car online games - especially fans of Formula 1 -, card games and in general aims at reaching people interested in sport online games.
 
 ## User stories
 
@@ -86,8 +86,8 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 - be able to enter my driver/player name, my photo and to have them displayed in the site.
 - access a website that it is easy to navigate and with some interactive features.
 - want to hear the Formula 1 anthem to charge myself for the game.
-- a site where I can play with the cards of the pilots of Formula1.
-- feel the atmosphere of Formula1 races through a website with captivating design.  
+- a site where I can play with the cards of the pilots of Formula 1.
+- feel the atmosphere of Formula 1 races through a website with captivating design.  
 - have a game based on time speed.
 - know my final position at the end of the game.
 - get a congratulation message if I ll finish on podium.
@@ -99,13 +99,13 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 
 - introduce future features to the website.
 - offer the user with an interactive experience.
-- attract more fans to Formula1.
+- attract more fans to Formula 1.
   
 ## Design
 
 ### Color scheme
 
-The color chosen for the website are red, white and black. These colors are mainly the same of the official website of <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a>. Purpose of these colors is to recreate the feeling of Formula1 racing
+The color chosen for the website are red, white and black. These colors are mainly the same of the official website of <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula 1</a>. Purpose of these colors is to recreate the feeling of Formula 1 racing
 
 <img src="./assets/images/readme-images/colors-palette.png" width="575" height="200">
 
@@ -116,7 +116,7 @@ If the player does not finish on podium, the color of the message will be in bro
 
 ### Typography
 
-The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the just mentioned website of Formula1. This Font wants as well to convey the player with the atmoshere of Formula1 racing.
+The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the just mentioned website of Formula 1. This Font wants as well to convey the player with the atmoshere of Formula 1 racing.
 
 ### Wireframes
 
@@ -137,16 +137,15 @@ When the button "Start the Qualifying" is pressed, the game starts. The player i
 
 ### The logo and the header
 
-The logo at the top left corner of the website is the official logo of Formula1. The header wants to remind the header of the official site of Formula1.
+The logo at the top left corner of the website is the official logo of Formula1. The header wants to remind the header of the official site of Formula 1.
 
 <img src="./assets/images/readme-images/logo-header.png" height="140" width="150">
 
 ### Game rules
 
-In this section there is a brief description of the game rules.
+In this section there is a brief description of the game rules. Not much is written about the rules regarding the uncovering of memory cards since this is self-explanatory and it is a game known by almost everyone.
 
 <img src="./assets/images/readme-images/rules.png" width="575" height="250">
-
 
 #### Super Max
 
@@ -155,15 +154,15 @@ If you are curios to know more about the origin of his nick name, click <a href=
 
 <img src="./assets/images/readme-images/super-max.png" width="100" height="50">
 
-#### Formula1 pilots and teams
+#### Formula 1 pilots and teams
 
-For the user that don't know much about Formula1, they can get all the in-depth information about F1 drivers and its teams by clicking on "Formula1". They will be redirected to the official page of Formula1.
+For the user that don't know much about Formula 1, they can get all the in-depth information about F1 drivers and its teams by clicking on "Formula 1". They will be redirected to the official page of Formula 1.
 
 <img src="./assets/images/readme-images/link-formula1-site.png" width="200" height="50">
 
 ### The Official F1 Anthem
 
-This audio toggle allows to listen to a part of the official anthem of Formula 1 before playing. This is a function to recreate the feeling of Formula1 racing for F1 fans.
+This audio toggle allows to listen to a part of the official anthem of Formula 1 before playing. This is a function to recreate the feeling of Formula 1 racing for F1 fans.
 If you want to listen to the full anthem, please click <a href="https://www.youtube.com/watch?v=8AYy-BcjRXg" target="_blank" rel="noopener" aria-label="Check the Youtube video of the Official F1 Anthem (opens in a new tab)">here</a>.
 
 1- Play button
@@ -194,13 +193,13 @@ When the game ends, the "Position:" line will be updated with the final position
 
 <img src="./assets/images/readme-images/score-box-endgame.png" width="575" height="270">
 
-The design of the score area aims at reminding the design of the official qualifying table of Formula1. Here below an example.
+The design of the score area aims at reminding the design of the official qualifying table of Formula 1. Here below an example.
 
 <img src="./assets/images/readme-images/qualifying-example-table.jpeg" width="575" height="275">
 
 ### Back image of the cards
 
-The back image of the cards is the Ferrari of the driver Charles Leclerc. Ferrari is the iconic team of Formula1 and it is the only team which has participated to all the F1 championships since the first Formula1 season of 1950.
+The back image of the cards is the Ferrari of the driver Charles Leclerc. Ferrari is the iconic team of Formula 1 and it is the only team which has participated to all the F1 championships since the first Formula 1 season of 1950.
 
 <img src="./assets/images/readme-images/back-cards.png" width="230" height="300">
 
@@ -257,7 +256,7 @@ Including a video of the typical podium F1 ceremony based on champagne that woul
 
 ### Background of the cards
 
-The background of the cards could look like the starting grid of a Formula1 circuit seen from above. It might look as following. 
+The background of the cards could look like the starting grid of a Formula 1 circuit seen from above. It might look as following. 
 
 <img src="./assets/images/readme-images/starting-grid.png" width="575" height="150">
 
