@@ -1,5 +1,7 @@
 # F1 - Pole Position! 
-Welcome to F1 - Pole Position! It is a Memory Card Game for fans of Formula 1 or fans of online games. Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will have to start in pole ahead of everyone and of Super Max - the nickname of the Formula1 Champion Max Verstappen. 
+Welcome to F1 - Pole Position! It is a Memory Card Game for fans of Formula 1 or fans of online games. Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will have to start in pole ahead of everyone and of Super Max - alias Max Verstappen. 
+
+In Formula1 racing and other motorsport races, the pole position is usually the best and "statistically the most advantageous" starting position on the track. The driver starting on pole is the one that qualifies with the fastest lap on the day before the race.
 
 The link to our Live Website can be found here - [F1 - Pole Position!](https://aedoardo1990.github.io/F1_PolePosition/).
 
@@ -8,51 +10,31 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
 ## Index - Table of Contents
 <!--Toc-->
 
+- [F1 - Pole Position!](#f1---pole-position)
+  - [Index - Table of Contents](#index---table-of-contents)
   - [User experience](#user-experience)
     - [Target audience](#target-audience)
   - [User stories](#user-stories)
-    - [First time user](#first-time-user)
-    - [Returning user](#returning-user)
-    - [Frequent user](#frequent-user)
+    - [As a site visitor I want to:](#as-a-site-visitor-i-want-to)
+    - [As a site administrator I want to:](#as-a-site-administrator-i-want-to)
   - [Design](#design)
     - [Color scheme](#color-scheme)
     - [Typography](#typography)
-    - [Imagery](#imagery)
     - [Wireframes](#wireframes)
   - [Features](#features)
-    - [The dropdown navigation menu](#the-dropdown-navigation-menu)
-    - [The landing image](#the-landing-image)
-    - [Reasons section and Youtube video](#reasons-section-and-youtube-video)
-    - ["The Books" page](#the-books-page)
-    - ["About the Author" page](#about-the-author-page)
-    - ["Get Free eBook" page](#get-free-ebook-page)
-    - [Footer](#footer)
+    - [Modal to start the game](#modal-to-start-the-game)
+    - [The logo and the header](#the-logo-and-the-header)
+    - [Game rules](#game-rules)
+      - [Super Max](#super-max)
+      - [Formula1 pilots and teams](#formula1-pilots-and-teams)
+    - [The Official F1 Anthem](#the-official-f1-anthem)
+    - [The score area](#the-score-area)
+    - [Back image of the cards](#back-image-of-the-cards)
+    - [Game area](#game-area)
+    - [End of Game Message](#end-of-game-message)
+    - [Soundtrack for the winner](#soundtrack-for-the-winner)
+    - [Drive again button](#drive-again-button)
   - [Features left to implement](#features-left-to-implement)
-    - [Flip cards](#flip-cards)
-    - [Video page](#video-page)
-    - [ECommerce page](#ecommerce-page)
-    - [Events page](#events-page)
-  - [Testing](#testing)
-    - [HTML-W3C-Validator](#html-w3c-validator)
-    - [CSS-Validator](#css-validator)
-    - [Lighthouse testing](#lighthouse-testing)
-    - [Form testing](#form-testing)
-    - [Browser testing](#browser-testing)
-    - [Device testing](#device-testing)
-    - [Mentor, family and friends testing](#mentor-family-and-friends-testing)
-    - [Fixed bugs](#fixed-bugs)
-      - [Dropdown menu not working properly on mobiles](#dropdown-menu-not-working-properly-on-mobiles)
-      - [Images not loading on the pages "About the author" and "Get free eBook"](#images-not-loading-on-the-pages-about-the-author-and-get-free-ebook)
-    - [Unfixed bugs](#unfixed-bugs)
-  - [Technologies used](#technologies-used)
-    - [Languages](#languages)
-    - [Programs used](#programs-used)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
-    - [Contents](#contents)
-    - [Media](#media)
-    - [Code used](#code-used)
-  - [Acknowledgements](#acknowledgements)
 
 <!--Toc stop-->
 
@@ -79,7 +61,7 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 - have a game based on time speed. 
 - know my final position at the end of the game. 
 - get a congratulation message if I ll finish on podium. 
-- get a congratulation message with  music if I ll get the Pole Position. 
+- get a congratulation message with music if I ll finish first. 
 - have the option to play again after the end of the game.
 - keep updated about new features of the site by accessing the social media links. 
 
@@ -93,7 +75,7 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 
 ### Color scheme
 
-The color chosen for the website are red, white and black. These colors are mainly the same of the <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a> website. Purpose of these colors is to recreate the feeling of Formula1 racing
+The color chosen for the website are red, white and black. These colors are mainly the same of the official website of <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a>. Purpose of these colors is to recreate the feeling of Formula1 racing
 
 ![Color Scheme](./assets/images/readme-images/colors-palette.png)
 
@@ -114,6 +96,96 @@ TO DO
 The website includes all the necessary features of a functioning and interactive memory card game website. 
 
 ### Modal to start the game 
+
+The modal pops up when the site loads. It allows to enter the player name and to upload a player photo. Photo and player name will be then transferred to the black score area box. 
+When the button "Start the Qualifying" is pressed, the game starts. The player is not obliged to enter a name and upload a photo. The game will run anyway by presing the button. 
+
+![Modal](./assets/images/readme-images/modal-window.png)
+
+### The logo and the header 
+
+The logo at the top left corner of the website is the official logo of Formula1. The header wants to remind the header of the official site of Formula1. 
+
+![F1 logo](./assets/images/readme-images/logo-header.png)
+
+### Game rules
+
+In this section there is a brief description of the game rules. 
+
+![Game rules](./assets/images/readme-images/rules.png)
+
+#### Super Max 
+
+When clicking on Super Max the user is redirected to the Wikipedia page of Max Verstappen, the current F1 World Champion. 
+If you are curios to know more about the origin of his nick name, click <a href="https://en.wikipedia.org/wiki/Super_Max!" target="_blank" rel="noopener" aria-label="Visit the Wikipedia page of Super Max (opens in a new tab)">here</a>.
+
+![Super Max](./assets/images/readme-images/super-max.png)
+
+#### Formula1 pilots and teams 
+
+For the user that don't know much about Formula1, they can get all the in-depth information about F1 drivers and its teams by clicking on "Formula1". They will be redirected to the official page of Formula1. 
+
+![Pilots and teams](./assets/images/readme-images/link-formula1-site.png)
+
+### The Official F1 Anthem 
+
+This audio toggle allows to listen to a part of the official anthem of Formula 1 before playing. This is a function to recreate the feeling of Formula1 racing for F1 fans. 
+If you want to listen to the full anthem, please click <a href="https://www.youtube.com/watch?v=8AYy-BcjRXg" target="_blank" rel="noopener" aria-label="Check the Youtube video of the Official F1 Anthem (opens in a new tab)">here</a>.
+
+![F1 anthem Play](./assets/images/readme-images/anthem-player.png)
+![F1 anthem Stop](./assets/images/readme-images//anthem-player-stop.png)
+
+### The score area 
+
+In the score area you have information about theplayer's name, time of the race, final position and there is the photo of Max Verstappen in a Card Format. 
+
+![Score area](./assets/images/readme-images/score-box.png)
+
+When the button "Start the Qualifying" is pressed, 3 things happen:
+ - the timer in the score area box starts 
+ - the driver photo of Verstappen will be replaced with the one of the player
+ - the driver namre is entered
+
+![Score box](./assets/images/readme-images/uploaded-driver-photo.png)
+
+When the game ends, the "Position:" line will be updated with the final position of the player. There are 4 positions: 1st, 2nd, 3rd, and Out of Podium. 
+
+![End of Game - Score box](./assets/images/readme-images/score-box-endgame.png)
+
+The design of the score area aims at reminding the design of the official qualifying table of Formula1. Here below an example. 
+
+![Qualifying Table](./assets/images/readme-images/qualifying-example-table.jpeg)
+
+
+### Back image of the cards
+
+The back image of the cards is the Ferrari of the driver Charles Leclerc. Ferrari is the iconic team of Formula1 and it is the only team which has participated to all the F1 championships since the first Formula1 season of 1950. 
+
+![Card back](./assets/images/readme-images/back-cards.png)
+
+### Game area 
+
+This is the main feature of the site. It consists of 12 cards (6 pairs), which appear face down at the start of the game. When clicked, cards turn face up. Matching pairs remain face up. Non-matching cards flip back with face down.
+
+![Game area](./assets/images/readme-images/front-cards.png)
+
+### End of Game Message 
+
+At the end of the game, the timer will stop and the final position will be entered in the score area. 
+Then a window will pop up and display the final position with the matching color( Gold for 1st, Silver for 2nd, Bronze for 3rd, Brown for Out of Podium/Fourth). Just for the winner getting the Pole Position, an audio theme will start when the end game window will pop up as below. 
+
+![End of Game Message](./assets/images/readme-images/1st-pole-window.png)
+
+### Soundtrack for the winner
+
+The soundtrack - "Les Toreadors" of Georges Bizet -  is the theme that you can hear at the end of a F1 Grand Prix when the winners ceremony with champagne takes place. Click <a href="https://www.youtube.com/watch?v=SpL9iaFM0C4" target="_blank" rel="noopener" aria-label="Check the Youtube video of the F1 Podium Ceremony (opens in a new tab)"></a>here to check a F1 Podium ceremony. 
+The Sountrack aims at recreating the atmosphere of F1. 
+
+### Drive again button
+
+When the end of game window pops up, there is a button that will allow to play again. This happens via reload of the site. 
+
+![Drive again button](./assets/images/readme-images/drive-again-button.png)
 
 
 ## Features left to implement
