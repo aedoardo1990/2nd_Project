@@ -46,6 +46,20 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [CSS-Validator](#css-validator)
     - [JSHint-Validator](#jshint-validator)
     - [Lighthouse testing](#lighthouse-testing)
+    - [Form testing](#form-testing)
+    - [Browser testing](#browser-testing)
+    - [Device testing](#device-testing)
+    - [Mentor, family and friends testing](#mentor-family-and-friends-testing)
+    - [Fixed bugs](#fixed-bugs)
+      - [Pilots images not loading on Edge Browser](#pilots-images-not-loading-on-edge-browser)
+    - [Unfixed bugs](#unfixed-bugs)
+  - [Technologies used](#technologies-used)
+    - [Languages](#languages)
+    - [Programs used](#programs-used)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Media](#media)
+    - [Code used](#code-used)
 
 <!--Toc stop-->
 
@@ -251,11 +265,84 @@ TO DO
 
 Here below the score resulting from Lighthouse testing for the Website.
 
-![Lightouse-Desktop]()
+![Lightouse testing](./assets/images/readme-images/lighthouse-testing.png)
 
-And the following the result for the Mobile version.
+### Form testing
 
-![Lightouse-Mobile]()
+The modal form has been tested so that the game can be played without having to enter a driver name and upload a driver photo
+
+### Browser testing 
+
+The Website was tested on Google Chrome, Microsoft Edge, Safari, and Firefox with no issues.
+
+### Device testing
+
+The Website was tested on the following devices, OnePlusNord10, iPhone13 mini, MacBook, laptop Acer Swift SF314-43 and created for the following screen sizes: 320px, 576px, 768px, 992px, 1240px, 1440px, 2560px and up.
+
+### Mentor, family and friends testing
+
+My mentor, my family and friends checked the site and helped to identify bugs and get a feeling about how the user-experience is perceived by visitors of the site.
+
+### Fixed bugs
+
+#### Pilots images not loading on Edge Browser
+
+The images of the pilots on the front of the cards were not loading just on Microsoft Edge. They were in format ".avi". I converted them to ".jpg" and this solved the issue. 
+
+### Unfixed bugs
+
+The sample image in the Score Area with Max Verstappen and the helmet is often not displayed when the website loads. There are instead never issues regarding the player photo that is uploaded in the same box. 
+
+![Unfixed bug](./assets/images/readme-images/unfixed-bug.png)
+
+## Technologies used
+
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+
+### Programs used
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - for testing responsivness, development of the website and lighthouse testing
+- [Google Fonts](https://fonts.google.com/) - to import fonts to the website
+- [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for the icon of the dropdown menu
+- [W3C](https://www.w3.org/) - for HTML & CSS Validation.
+- [JShint](https://jshint.com/) - for JavaScript Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The link of the deployed site can be found here - [F1 - Pole Position!](https://aedoardo1990.github.io/F1_PolePosition/)
+
+## Credits
+
+### Media 
+
+- [Formula 1 Official](https://www.formula1.com/) - photos of the pilots and the F1 logo at the top left corner of the website
+- [Pinterest](https://www.pinterest.it/) -  photo of the Ferrari on the back of the cards and photo of Max Verstappen in the Score area
+- [Red Ringtones](https://www.redringtones.com/) - soundtrack of the winner "Les toreadors" of Georges Bizet 
+- [Zedge](https://www.zedge.net/ringtones-and-wallpapers) - F1 Anthem 
+
+### Code used
+
+- Inspiration for the memory card game - [Memory Card Game of Kathrin Ddggxh](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/tree/main)
+- Inspiration for the design of the website - [Offical Formula1 Website](https://www.formula1.com/en.html)
+- Transmitting player photo from form to div with class="card-driver" in HTML - line 9 of script.js file - [Stack overflow](https://stackoverflow.com/)
+- Creation of timer - line 22 of script.js file - [Stack overflow](https://stackoverflow.com/)
+- Toggle Play to switch on/off the F1 anthem - line 53 of script.js file - [Stack overflow](https://stackoverflow.com/)
+- Cards area - line 68 of script.js file - [Github of Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/)
+
+For more details on the code used, 
+
 
 
 
