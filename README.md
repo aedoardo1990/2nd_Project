@@ -74,7 +74,7 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
 
 ### Target audience
 
-The F1 - Pole Position! Website targets an audience of people interested in racing car online games - especially fans of Formula 1 -, card games and in general aims at reaching people interested in sport online games.
+The F1 - Pole Position! website targets an audience of people interested in motorsport online games  - especially fans of Formula 1 -, card games and in general aims at reaching people interested in sport online games.
 
 ## User stories
 
@@ -85,13 +85,13 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 - know who is Super Max.
 - be able to enter my driver/player name, my photo and to have them displayed in the site.
 - access a website that it is easy to navigate and with some interactive features.
-- want to hear the Formula 1 anthem to charge myself for the game.
+- want to hear the Formula 1 anthem to get adrenaline for the game.
 - a site where I can play with the cards of the pilots of Formula 1.
 - feel the atmosphere of Formula 1 races through a website with captivating design.  
 - have a game based on time speed.
 - know my final position at the end of the game.
-- get a congratulation message if I ll finish on podium.
-- get a congratulation message with music if I ll finish first.
+- get a congratulation message if I'll finish on podium.
+- get a congratulation message with music if I'll finish first.
 - have the option to play again after the end of the game.
 - keep updated about new features of the site by accessing the social media links.
 
@@ -109,14 +109,14 @@ The color chosen for the website are red, white and black. These colors are main
 
 <img src="./assets/images/readme-images/colors-palette.png" width="575" height="200">
 
-On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. They want to remind of the colors of the medals used to award in sport competitions.  
+On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. They aim at recalling the colors of the medals used to award in sport competitions.  
 If the player does not finish on podium, the color of the message will be in brown. That is because in sport the "award" a sportsman gets for 4th place is known as the "wooden medal".
 
 <img src="./assets/images/readme-images/colors-palette-medals.png" width="575" height="150">
 
 ### Typography
 
-The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the just mentioned website of Formula 1. This Font wants as well to convey the player with the atmoshere of Formula 1 racing.
+The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the mentioned website of Formula 1. This Font aims as well at conveying the atmoshere of Formula 1 racing.
 
 ### Wireframes
 
@@ -131,13 +131,13 @@ The website includes all the necessary features of a functioning and interactive
 ### Modal to start the game
 
 The modal pops up when the site loads. It allows to enter the player name and to upload a player photo. Photo and player name will be then transferred to the black score area box.
-When the button "Start the Qualifying" is pressed, the game starts. The player is not obliged to enter a name and upload a photo. The game will run anyway by presing the button.
+When the button "Start the Qualifying" is pressed, the game starts. The player is not obliged to enter a name and upload a photo. The game will run anyway by pressing the button.
 
 <img src="./assets/images/readme-images/modal-window.png" height="250" width="270">
 
 ### The logo and the header
 
-The logo at the top left corner of the website is the official logo of Formula1. The header wants to remind the header of the official site of Formula 1.
+The logo at the top left corner of the website is the official logo of Formula 1. Purpose of the design of the header is to remind the one of the official site of Formula 1.
 
 <img src="./assets/images/readme-images/logo-header.png" height="140" width="150">
 
@@ -156,7 +156,7 @@ If you are curios to know more about the origin of his nick name, click <a href=
 
 #### Formula 1 pilots and teams
 
-For the user that don't know much about Formula 1, they can get all the in-depth information about F1 drivers and its teams by clicking on "Formula 1". They will be redirected to the official page of Formula 1.
+For the users that don't know much about Formula 1, they can get all the in-depth information about F1 drivers and its teams by clicking on "Formula 1". They will be redirected to the official page of Formula 1.
 
 <img src="./assets/images/readme-images/link-formula1-site.png" width="200" height="50">
 
@@ -175,19 +175,18 @@ If you want to listen to the full anthem, please click <a href="https://www.yout
 
 ### The score area
 
-In the score area you have information about theplayer's name, time of the race, final position and there is the photo of Max Verstappen in a Card Format.
+In the score area you have information about the player's name, gaming time, final position and there is the photo of Max Verstappen in a Card Format.
 
 <img src="./assets/images/readme-images/score-box.png" width="575" height="250">
 
-
-When the button "Start the Qualifying" is pressed, 3 things happen:
+When the button "Start the Qualifying" is pressed, 4 things happen at the same time:
 
 - the timer in the score area box starts
-- the driver photo of Verstappen will be replaced with the one of the player
-- the driver namre is entered
+- the driver photo of Verstappen is replaced with the one of the player
+- the driver name is entered
+- the game begins 
 
 <img src="./assets/images/readme-images/uploaded-driver-photo.png" width="575" height="250">
-
 
 When the game ends, the "Position:" line will be updated with the final position of the player. There are 4 positions: 1st, 2nd, 3rd, and Out of Podium.
 
@@ -212,7 +211,7 @@ This is the main feature of the site. It consists of 12 cards (6 pairs), which a
 ### End of Game Message
 
 At the end of the game, the timer will stop and the final position will be entered in the score area.
-Then a window will pop up and display the final position with the matching color( Gold for 1st, Silver for 2nd, Bronze for 3rd, Brown for Out of Podium/Fourth). Just for the winner getting the Pole Position, an audio theme will start when the end game window will pop up as below.
+Then a window will pop up and display the final position with the matching color( Gold for 1st, Silver for 2nd, Bronze for 3rd, Brown for Out of Podium/Fourth). Just for the winner who will get the Pole Position, an audio theme will start when the end game window will pop up as below.
 
 <img src="./assets/images/readme-images/1st-pole-window.png" width="575" height="250">
 
@@ -243,16 +242,16 @@ Option to choose from the Start Modal for which team/car of the F1 World Champio
 
 ### Different levels of difficulty
 
-The positioning at the end of the race already represents a different level of difficulty according to the position. However, in the future it would be nice to add different levels of difficulty to choose from in the Modal that loads at the start. Levels of difficulty would be divided accordingly: Beginner, Intermediate, Pro.
+The positioning at the end of the race already represents a different level of difficulty according to the time to complete the game. However, in the future it would be nice to add different levels of difficulty to choose from in the Modal that loads at the start. Levels of difficulty would be divided accordingly: Beginner, Intermediate, Pro.
 
 ### All the F1 pilots cards
 
-F1 World Championship has 10 teams and 20 pilots (2 pilots per team). The game includes its most prestigious ones, for a total of 6 teams and 12 pilots. For reasons of space (especially for the mobile version) I preferred to opt for a reduction of the amount of pilots.
+The F1 World Championship has 10 teams and 20 pilots (2 pilots per team). The game includes its most prestigious ones, for a total of 6 teams and 12 pilots. For reasons of space (especially for the mobile version) I preferred to opt for a reduction of the amount of pilots.
 It would be nice to include all the teams and pilots. This should go together most likely with using Flexbox Grid, in order to optimize the screen space.
 
 ### F1 Ceremony for the winner
 
-Including a video of the typical podium F1 ceremony based on champagne that would be part of the pop up window for the winner.
+To include a video of the typical podium F1 ceremony based on champagne that would be part of the pop up window for the winner.
 
 ### Background of the cards
 
@@ -284,10 +283,9 @@ When I first tried to validate the JS code, there were many of the following err
 
 After writing the comment /*jshint esversion: 6*/ at the top of the file, almost all warnings disappeared.
 
-According to the final validation (image below) there 6 unused variables and one warning left. I tried to the delete the mentioned variables from the script.js file but then the website was not working correctly. Therefore, I did not take further action.
+According to the final validation (image below) there are 6 unused variables and one warning left. I tried to the delete the mentioned variables from the script.js file but then the website was not working correctly. Therefore, I did not take delete them.
 
 <img src="./assets/images/readme-images/jshint-validator.png" width="575" height="280">
-
 
 ### Lighthouse testing
 
@@ -316,7 +314,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 #### Pilots images not loading on Edge Browser
 
 The images of the pilots on the front of the cards were not loading just on Microsoft Edge. They were in format ".avi". I converted them to ".jpg" and this solved the issue.
-By checking the website via the Lighthouse testing, the size of the images of the pilots were too big and heavy for the onload of the site, therefore I resized and compressed the images, and converted them to the format WEBP. 
+By checking the website via the Lighthouse testing, the size of the images of the pilots were too big and heavy for the onload of the site, therefore I resized and compressed the images, and converted them in the end to the format WEBP. 
 
 ### Unfixed bugs
 
