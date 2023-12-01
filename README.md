@@ -97,7 +97,8 @@ The color chosen for the website are red, white and black. These colors are main
 
 ![Color Scheme](./assets/images/readme-images/colors-palette.png)
 
-On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. If the player does not finish on podium, the color of the message will be in brown. That is because in sport the "award" a sportsman gets for 4th place is known as the "wooden medal".
+On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. They want to remind of the colors of the medals used to award in sport competitions.  
+If the player does not finish on podium, the color of the message will be in brown. That is because in sport the "award" a sportsman gets for 4th place is known as the "wooden medal".
 
 ![Color Scheme](./assets/images/readme-images/colors-palette-medals.png)
 
