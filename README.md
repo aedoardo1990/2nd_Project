@@ -103,7 +103,7 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 
 The color chosen for the website are red, white and black. These colors are mainly the same of the official website of <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a>. Purpose of these colors is to recreate the feeling of Formula1 racing
 
-<img src="./assets/images/readme-images/colors-palette.png" width="576" height="161">
+<img src="./assets/images/readme-images/colors-palette.png" width="576" height="166">
 
 
 On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. They want to remind of the colors of the medals used to award in sport competitions.  
@@ -128,6 +128,8 @@ The modal pops up when the site loads. It allows to enter the player name and to
 When the button "Start the Qualifying" is pressed, the game starts. The player is not obliged to enter a name and upload a photo. The game will run anyway by presing the button. 
 
 ![Modal](./assets/images/readme-images/modal-window.png)
+<img src="./assets/images/readme-images/modal-window.png" width="250" height="250">
+
 
 ### The logo and the header 
 
