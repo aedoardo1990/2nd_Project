@@ -286,6 +286,10 @@ body {
     color: green;
 }
 
+/* Audio for the winner - default hidden */
+ #winner-song {
+     display: none
+ }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {

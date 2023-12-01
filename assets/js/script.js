@@ -105,7 +105,8 @@ function checkForMatch() {
                 if (totalSeconds < 20) {
                     document.getElementById("popup-pole").style.display = "block";
                     document.getElementById("show-position").innerHTML = "1st";
-                    audio.play.src = "assets/audio/track-1st-position.mp3"; // audio for the winner 
+                    var song = document.getElementById("winner-song");
+                    song.play();                
                 }
                 else {
                     if (totalSeconds < 30) {
