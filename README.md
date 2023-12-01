@@ -168,7 +168,8 @@ If you want to listen to the full anthem, please click <a href="https://www.yout
 
 In the score area you have information about theplayer's name, time of the race, final position and there is the photo of Max Verstappen in a Card Format. 
 
-![Score area](./assets/images/readme-images/score-box.png)
+<img src="./assets/images/readme-images/score-box.png)" width="576" height="244">
+
 
 When the button "Start the Qualifying" is pressed, 3 things happen:
  - the timer in the score area box starts 
@@ -256,7 +257,7 @@ The result of the W3C Validator is all correct, no errors.
 
 No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
-<img src="./assets/images/readme-images/CSS-Validator.png" width="800px" height="550px">
+<img src="./assets/images/readme-images/CSS-Validator.png" width="800" height="550">
 
 ### JSHint-Validator
 
