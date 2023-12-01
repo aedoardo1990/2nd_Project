@@ -103,7 +103,8 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 
 The color chosen for the website are red, white and black. These colors are mainly the same of the official website of <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a>. Purpose of these colors is to recreate the feeling of Formula1 racing
 
-![Color Scheme](./assets/images/readme-images/colors-palette.png)
+<img src="./assets/images/readme-images/colors-palette.png" width="576" height="161">
+
 
 On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. They want to remind of the colors of the medals used to award in sport competitions.  
 If the player does not finish on podium, the color of the message will be in brown. That is because in sport the "award" a sportsman gets for 4th place is known as the "wooden medal".
@@ -168,15 +169,14 @@ If you want to listen to the full anthem, please click <a href="https://www.yout
 
 In the score area you have information about theplayer's name, time of the race, final position and there is the photo of Max Verstappen in a Card Format. 
 
-<img src="./assets/images/readme-images/score-box.png)" width="576" height="244">
-
+<img src="./assets/images/readme-images/score-box.png" width="576" height="244">
 
 When the button "Start the Qualifying" is pressed, 3 things happen:
  - the timer in the score area box starts 
  - the driver photo of Verstappen will be replaced with the one of the player
  - the driver namre is entered
 
-![Score box](./assets/images/readme-images/uploaded-driver-photo.png)
+<img src="./assets/images/readme-images/uploaded-driver-photo.png" width="576" height="244">
 
 When the game ends, the "Position:" line will be updated with the final position of the player. There are 4 positions: 1st, 2nd, 3rd, and Out of Podium. 
 
