@@ -120,7 +120,9 @@ The Font chosen for the text on all the pages is "Titillium Web". This is the sa
 
 ### Wireframes
 
-TO DO
+The wireframes for the "F1 - Pole Position" website were created with Figma.
+
+<img src="./assets/images/readme-images/figma-wireframes.png" height="500" width="575">
 
 ## Features
 
@@ -344,6 +346,7 @@ The cards are organized in 2 rows, vertical on screens of 320px and 576px, horiz
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - for testing responsivness, development of the website and lighthouse testing
 - [Google Fonts](https://fonts.google.com/) - to import fonts to the website
 - [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for the icon of the dropdown menu
+- [Figma](https://www.figma.com/) - to create the wireframes
 - [W3C](https://www.w3.org/) - for HTML & CSS Validation.
 - [JShint](https://jshint.com/) - for JavaScript Validation.
 - [iloveimg](https://www.iloveimg.com/) - to compress and resize the photos
@@ -374,7 +377,7 @@ The link of the deployed site can be found here - [F1 - Pole Position!](https://
 ### Code used
 
 - Inspiration for the memory card game - [Memory Card Game of Kathrin Ddggxh](https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/tree/main)
-- Inspiration for the design of the website - [Offical Formula1 Website](https://www.formula1.com/en.html)
+- Inspiration for the design of the website - [Official Formula1 Website](https://www.formula1.com/en.html)
 - Transmitting player photo from form to div with class="card-driver" in HTML - line 9 of script.js file - [Stack overflow](https://stackoverflow.com/)
 - Creation of timer - line 22 of script.js file - [Stack overflow](https://stackoverflow.com/)
 - Toggle Play to switch on/off the F1 anthem - line 53 of script.js file - [Stack overflow](https://stackoverflow.com/)
@@ -386,7 +389,7 @@ My mentor Antonio for his great support and the practical advices.
 
 My wife for her great interest and passion for my work.
 
-My father for the passion he gave me to watch F1 since I was a child. 
+My father for the passion he instilled in me to watch F1 since I was a child. 
 
 Kay of Code Institute and the Slack Community.
 
