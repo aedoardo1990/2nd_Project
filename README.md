@@ -249,14 +249,14 @@ Including a video of the typical podium F1 ceremony based on champagne that woul
 
 The result of the W3C Validator is all correct, no errors.
 
-![HTML Validator](./assets/images/readme-images/HTML-Validator.png)
+<img src="./assets/images/readme-images/HTML-Validator.png" width="320" height="100">
+
 
 ### CSS-Validator
 
 No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
-![CSS Validator](./assets/images/readme-images/CSS-Validator.png)
-
+<img src="./assets/images/readme-images/CSS-Validator.png" width="320" height="100">
 
 ### JSHint-Validator
 
@@ -266,7 +266,7 @@ TO DO
 
 Here below the score resulting from Lighthouse testing for the Website.
 
-![Lightouse testing](./assets/images/readme-images/lighthouse-testing.png)
+<img src="./assets/images/readme-images/lighthouse-testing.png" width="320" height="100">
 
 ### Form testing
 
@@ -294,7 +294,7 @@ The images of the pilots on the front of the cards were not loading just on Micr
 
 The sample image in the Score Area with Max Verstappen and the helmet is often not displayed when the website loads. There are instead never issues regarding the player photo that is uploaded in the same box. 
 
-![Unfixed bug](./assets/images/readme-images/unfixed-bug.png)
+<img src="./assets/images/readme-images/unfixed-bug.png" width="320" height="100">
 
 ## Technologies used
 
