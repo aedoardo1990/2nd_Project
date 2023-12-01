@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta Tags for Search Engines-->
+    <meta name="keywords" content="memory card game, F1, Formula1, car game, pole position, card game">
+    <meta name="description" content="A memory card game to start first on the grid of F1.">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Favicon-->
+    <link rel="icon" href="./assets/images/favicon-white.jpg">
+    <title>F1 - Pole Position!</title>
+</head>
+
+<body class="body">
+    <!--Start Form - code inspired from https://github.com/Kathrin-ddggxh/CI-PP2_memory-card-game/blob/main/index.html -->
+    <dialog onload="openModal()" class="dialog" id="dialog">
+        <h2 class="start-box-heading">Let's drive!</h2>
+        <form class="form" method="dialog">
+            <label for="driver-name-input">Enter your Driver Name:</label>
+            <input id="driver-name-input" name="driver-name" class="start-box-input" type="text">
+            <label for="driver-photo-input">Upload your Driver Photo:</label>
+            <input id="driver-photo-input" name="driverphoto" class="start-box-input" type="file" accept="image/*">
+            <br>
+            <button class="start-btn" id="start-btn" type="submit" aria-label="start game"
+                onclick="time(); displayName()">Start the Qualifying</button>
+        </form>
+    </dialog>
+
+    <!--Header-->
+    <header>
+        <div>
+            <h1 class="header1"><img class="logo" src="./assets/images/f1-logo-red.png" alt="F1 logo"><a
+                    class="header1-title">Pole Position</a></h1>
+        </div>
+        <br>
+        <div>
+            <h2 class="header2">A F1 memory card game to start in Pole Position!</h2>
+        </div>
+    </header>
+    <br>
+    <!--Main Content-->
+    <main class="main">
+        <!--Quick Info to start the game-->
+        <section class="game-info">
+            <h3>How to be the first starting on the grid?</h3>
+            <p>Uncover the matching pairs of F1 teammates. The fastest you match them and the higher chances you will
+                have to start in pole ahead of everyone and of <a href="https://en.wikipedia.org/wiki/Max_Verstappen"
+                    target="_blank" rel="noopener"
+                    aria-label="Visit the Wiki page of Max Verstappen (opens in a new tab)">Super Max</a>. Drivers will
+                have different faces and you will recognize the matching teammates by the <strong>same colour of their
+                    racing suits.</strong></p>
+            <br>
+            <p>You will be able to qualify in the following positions by stopping the timer accordingly:</p>
+            <ul class="finish-times">
+                <li><i class="fa-solid fa-trophy" style="color: #d4af37;"></i><strong>1st</strong> Time equal or less
+                    than 20s</li>
+                <li><i class="fa-solid fa-trophy" style="color: #aaa9ad;"></i><strong>2nd</strong> Time equal or less
+                    than 30s</li>
+                <li><i class="fa-solid fa-trophy" style="color: #a97142;"></i><strong>3rd</strong> Time equal or less
+                    than 40s</li>
+            </ul>
+            <br>
+            <p>If you don't know the Formula1 drivers and its teams, you can have an in-depth look on the official site
+                of <a href="https://www.formula1.com/en/teams.html" target="_blank" rel="noopener"
+                    aria-label="Visit the Formula1 page (opens in a new tab)">Formula1</a>.</p>
+
+        </section>
+        <!--Button to play F1 Anthem-->
+        <span class="player"><strong>Play and get ready in your car!</strong>
+            <img id="button" class="button-properties" onclick="togglePlay()"
+                src="assets/images/circle-play-regular.svg" alt="anthem formula1">
+            <audio src="assets/audio/f1_theme_brian_tyler.mp3"></audio>
+        </span>
+
+        <!--Game Area-->
+        <div class="game-score-block">
+            <!--Timer and Final Position-->
+            <section class="score-area">
+                <div class="timer-span">
+                    <h4><i class="fa-solid fa-stopwatch" style="color: #ffffff;"></i> Time:
+                        <span class="clock" id="timer"><label id="minutes">00</label>:<label id="seconds">00</label>
+                        </span>
+                    </h4>
+                    <br>
+                    <h4><i class="fa-solid fa-trophy" style="color: #ffffff;"></i> Position:
+                        <span class="position-finish" id="show-position"></span>
+                    </h4>
+                    <br>
+                    <h4><i class="fa-solid fa-user" style="color: #ffffff;"></i> Driver:
+                        <span class="driver-submitted" id="show-name">
+                        </span>
+                    </h4>
+                </div>
+                <span class="card-driver">
+                    <img id="tosubmit" src="/assets/images/start-verstappen.png" alt="driver photo to upload"
+                        width="200">
+                </span>
+            </section>
+            <!--Cards table section-->
+            <div class="cards-area">
+                <div class="card" data-framework="ferrari">
+                    <img src="./assets/images/pilots/leclerc.jpg" alt="Charles Leclerc - Ferrari" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="ferrari">
+                    <img src="./assets/images/pilots/sainz.jpg" alt="Carlos Sainz - Ferrari" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="redbull">
+                    <img src="./assets/images/pilots/verstappen.jpg" alt="Max Verstappen-RedBull" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="redbull">
+                    <img src="./assets/images/pilots/perez.jpg" alt="Sergio Perez-RedBull" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="mercedes">
+                    <img src="./assets/images/pilots/hamilton.jpg" alt="Lewis Hamilton - Mercedes" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="mercedes">
+                    <img src="./assets/images/pilots/russell.jpg" alt="George Russell- Mercedes" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="astonmartin">
+                    <img src="./assets/images/pilots/alonso.jpg" alt="Fernando Alonso - Aston Martin"
+                        class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="astonmartin">
+                    <img src="./assets/images/pilots/stroll.jpg" alt="Lance Stroll - Aston Martin" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="mclaren">
+                    <img src="./assets/images/pilots/norris.jpg" alt="Lando Norris - McLaren" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="mclaren">
+                    <img src="./assets/images/pilots/piastri.jpg" alt="Oscar Piastri - McLaren" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="alfa-romeo">
+                    <img src="./assets/images/pilots/bottas.jpg" alt="Valteri Bottas - Alfa Romeo" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+                <div class="card" data-framework="alfa-romeo">
+                    <img src="./assets/images/pilots/zhou.jpg" alt="Guanyu Zhou - Alfa-Romeo" class="front-face">
+                    <img src="assets/images/cards-back.png" alt="card back" class="back-face">
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden section - pop-up windows for end game activated via JS -->
+        <!--pop-up window - Finish position 1st -->
+        <div id="popup-pole" class="popup-end-game">
+            <div class="position-phrase">
+                <p><strong>You are on Pole!</strong></p>
+                <p><strong>1st</strong> <i class="fa-solid fa-trophy" style="color: #d4af37;"></i></p>
+            </div>
+            <a class="restart-btn" href="index.html" style="text-decoration:none">Drive again!</a>
+        </div>
+
+        <!--pop-up window - Finish position 2nd -->
+        <div id="popup-second" class="popup-end-game">
+            <div class="position-phrase">
+                <p><strong>You are Second!</strong></p>
+                <p><strong>2nd</strong> <i class="fa-solid fa-trophy" style="color: #aaa9ad;"></i></p>
+            </div>
+            <a class="restart-btn" href="index.html" style="text-decoration:none">Drive again!</a>
+        </div>
+
+        <!--pop-up window - Finish position 3rd -->
+        <div id="popup-third" class="popup-end-game">
+            <div class="position-phrase">
+                <p><strong>You are Third!</strong></p>
+                <p><strong>3rd</strong> <i class="fa-solid fa-trophy" style="color: #a97142;"></i></p>
+            </div>
+            <a class="restart-btn" href="index.html" style="text-decoration:none">Drive again!</a>
+        </div>
+
+        <!--pop-up window - Finish position: Out of podium -->
+        <div id="popup-fourth" class="popup-end-game">
+            <div class="position-phrase">
+                <p><strong>You are out of podium...</strong></p>
+                <p><strong>Retry!</strong></p>
+            </div>
+            <a class="restart-btn" href="index.html" style="text-decoration:none">Drive again!</a>
+        </div>
+
+        <!--Audio for the winner -->
+        <audio id="winner-song" src="assets/audio/track-1st-position.mp3" preload="auto"></audio>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"
+                        style="color: #ffffff"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"
+                        style="color: #ffffff"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our X-Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"
+                        style="color: #ffffff"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"
+                        style="color: #ffffff"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!--Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/4f92087d19.js" crossorigin="anonymous"></script>
+    <!--JavaScript file link-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
