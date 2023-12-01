@@ -1,10 +1,7 @@
+/*jshint esversion: 6 */
+
 // retrieve dialog element
 const dialog = document.getElementById('dialog');
-
-// Open Modal 
-function openModal() {
-    dialog.showModal();
-}
 
 // transmitting Photo to Div with class="card-driver" in HTML - credit to https://stackoverflow.com/questions/71608101/how-to-fill-a-div-with-an-image-the-user-uploads
 const img = document.getElementById('tosubmit');

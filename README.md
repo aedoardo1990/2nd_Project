@@ -368,8 +368,6 @@ The link of the deployed site can be found here - [F1 - Pole Position!](https://
 - Toggle Play to switch on/off the F1 anthem - line 53 of script.js file - [Stack overflow](https://stackoverflow.com/)
 - Cards area - line 68 of script.js file - [Github of Marina Ferreira](https://marina-ferreira.github.io/tutorials/js/memory-game/)
 
-For more details on the code used in js, please check the scrupt.js file.
-
 ## Acknowledgements
 
 My mentor Antonio for his great support and the professional practical advices.
