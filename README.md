@@ -34,12 +34,18 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [End of Game Message](#end-of-game-message)
     - [Soundtrack for the winner](#soundtrack-for-the-winner)
     - [Drive again button](#drive-again-button)
+    - [Footer](#footer)
   - [Features left to implement](#features-left-to-implement)
     - [Circuit option](#circuit-option)
     - [Car option](#car-option)
     - [Different levels of difficulty](#different-levels-of-difficulty)
     - [All the F1 pilots cards](#all-the-f1-pilots-cards)
     - [F1 Ceremony for the winner](#f1-ceremony-for-the-winner)
+  - [Testing](#testing)
+    - [HTML-W3C-Validator](#html-w3c-validator)
+    - [CSS-Validator](#css-validator)
+    - [JSHint-Validator](#jshint-validator)
+    - [Lighthouse testing](#lighthouse-testing)
 
 <!--Toc stop-->
 
@@ -137,7 +143,10 @@ For the user that don't know much about Formula1, they can get all the in-depth 
 This audio toggle allows to listen to a part of the official anthem of Formula 1 before playing. This is a function to recreate the feeling of Formula1 racing for F1 fans. 
 If you want to listen to the full anthem, please click <a href="https://www.youtube.com/watch?v=8AYy-BcjRXg" target="_blank" rel="noopener" aria-label="Check the Youtube video of the Official F1 Anthem (opens in a new tab)">here</a>.
 
+1- Play button 
 ![F1 anthem Play](./assets/images/readme-images/anthem-player.png)
+
+2- Stop button
 ![F1 anthem Stop](./assets/images/readme-images//anthem-player-stop.png)
 
 ### The score area 
@@ -192,6 +201,10 @@ When the end of game window pops up, there is a button that will allow to play a
 
 ![Drive again button](./assets/images/readme-images/drive-again-button.png)
 
+### Footer 
+
+The footer contains the links to our social media pages to keep updated with all the news concerning our website. 
+
 ## Features left to implement
 
 ### Circuit option      
@@ -201,8 +214,6 @@ Option to choose from the Start Modal on which circuit of the F1 World Champions
 ### Car option  
 
 Option to choose from the Start Modal for which team/car of the F1 World Championship to qualify. 
-
-
 
 ### Different levels of difficulty
 
@@ -216,6 +227,37 @@ It would be nice to include all the teams and pilots. This should go together mo
 ### F1 Ceremony for the winner 
 
 Including a video of the typical podium F1 ceremony based on champagne that would be part of the pop up window for the winner. 
+
+## Testing
+
+### HTML-W3C-Validator
+
+The result of the W3C Validator is all correct, no errors.
+
+![HTML Validator](./assets/images/readme-images/HTML-Validator.png)
+
+### CSS-Validator
+
+No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
+
+![CSS Validator](./assets/images/readme-images/CSS-Validator.png)
+
+
+### JSHint-Validator
+
+TO DO 
+
+### Lighthouse testing
+
+Here below the score resulting from Lighthouse testing for the Website.
+
+![Lightouse-Desktop]()
+
+And the following the result for the Mobile version.
+
+![Lightouse-Mobile]()
+
+
 
 
 
