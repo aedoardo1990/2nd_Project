@@ -256,7 +256,7 @@ The result of the W3C Validator is all correct, no errors.
 
 No errors after checking the code with W3C Jigsaw CSS Validator. There is just one warning visible in the screenshot below at the bottom. This is due to the imported Google fonts.
 
-<img src="./assets/images/readme-images/CSS-Validator.png" width="320" height="100">
+<img src="./assets/images/readme-images/CSS-Validator.png" width="520" height="250">
 
 ### JSHint-Validator
 
