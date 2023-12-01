@@ -315,6 +315,7 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 #### Pilots images not loading on Edge Browser
 
 The images of the pilots on the front of the cards were not loading just on Microsoft Edge. They were in format ".avi". I converted them to ".jpg" and this solved the issue.
+By checking the website via the Lighthouse testing, the size of the images of the pilots were too big and heavy for the onload of the site, therefore I resized and compressed the images, and converted them to the format WEBP. 
 
 ### Unfixed bugs
 
@@ -345,6 +346,8 @@ The cards are organized in 2 rows, vertical on screens of 320px and 576px, horiz
 - [Font Awesome](https://fontawesome.com/) - for social media icons in footer and for the icon of the dropdown menu
 - [W3C](https://www.w3.org/) - for HTML & CSS Validation.
 - [JShint](https://jshint.com/) - for JavaScript Validation.
+- [iloveimg](https://www.iloveimg.com/) - to compress and resize the photos
+- [convertio](https://convertio.co/it/jpg-webp/) - to convert images to the webp format
 
 ## Deployment
 
@@ -379,9 +382,11 @@ The link of the deployed site can be found here - [F1 - Pole Position!](https://
 
 ## Acknowledgements
 
-My mentor Antonio for his great support and the professional practical advices.
+My mentor Antonio for his great support and the practical advices.
 
 My wife for her great interest and passion for my work.
+
+My father for the passion he gave me to watch F1 since I was a child. 
 
 Kay of Code Institute and the Slack Community.
 
