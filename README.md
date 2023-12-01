@@ -3,8 +3,7 @@ Welcome to F1 - Pole Position! It is a Memory Card Game for fans of Formula 1 or
 
 The link to our Live Website can be found here - [F1 - Pole Position!](https://aedoardo1990.github.io/F1_PolePosition/).
 
-![Responsive Mockup](/workspaces/2nd_Project/assets/images/readme-images/readme-mockup.png)
-
+![Responsive Mockup](https://github.com/aedoardo1990/F1_PolePosition/blob/main/assets/images/readme-images/readme-mockup.png)
 
 ## Index - Table of Contents
 
