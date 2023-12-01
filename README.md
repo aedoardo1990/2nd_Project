@@ -106,6 +106,20 @@ If the player does not finish on podium, the color of the message will be in bro
 
 The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the just mentioned website of Formula1. This Font wants as well to convey the player with the atmoshere of Formula1 racing. 
 
+### Wireframes
+TO DO 
+
+## Features
+
+The website includes all the necessary features of a functioning and interactive memory card game website. 
+
+### Modal to start the game 
+
+
+## Features left to implement
+
+
+
 
 
   
