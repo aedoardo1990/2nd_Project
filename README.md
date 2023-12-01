@@ -68,14 +68,14 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 
 ### As a site visitor I want to: 
 
-- read a quick and clear description of the game and start playing immediately. 
+- read a quick and clear explanation of the game and start playing immediately. 
 - know more information about the Formula 1 pilots and its teams.
 - know who is Super Max. 
 - be able to enter my driver/player name, my photo and to have them displayed in the site. 
 - access a website that it is easy to navigate and with some interactive features. 
 - want to hear the Formula 1 anthem to charge myself for the game. 
 - a site where I can play with the cards of the pilots of Formula1.
-- feel the atmosphere of Formula1 races.  
+- feel the atmosphere of Formula1 races through a website with captivating design.  
 - have a game based on time speed. 
 - know my final position at the end of the game. 
 - get a congratulation message if I ll finish on podium. 
@@ -88,6 +88,25 @@ The F1 - Pole Position! Website targets an audience of people interested in raci
 - introduce future features to the website. 
 - offer the user with an interactive experience. 
 - attract more fans to Formula1.
+  
+## Design
+
+### Color scheme
+
+The color chosen for the website are red, white and black. These colors are mainly the same of the <a href="https://www.Formula1.com" target="_blank" rel="noopener" aria-label="Visit the official Formula1 Website (opens in a new tab)">Formula1</a> website. Purpose of these colors is to recreate the feeling of Formula1 racing
+
+![Color Scheme](./assets/images/readme-images/colors-palette.png)
+
+On the top of them, gold metallic, silver and bronze are used for the pop up messages at the end of the game according to the position of the player. If the player does not finish on podium, the color of the message will be in brown. That is because in sport the "award" a sportsman gets for 4th place is known as the "wooden medal".
+
+![Color Scheme](./assets/images/readme-images/colors-palette-medals.png)
+
+### Typography
+
+The Font chosen for the text on all the pages is "Titillium Web". This is the same Font of the just mentioned website of Formula1. This Font wants as well to convey the player with the atmoshere of Formula1 racing. 
+
+
+
   
 
 

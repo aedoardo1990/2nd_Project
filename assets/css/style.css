@@ -10,14 +10,14 @@
 
 /* Global Style */
 body {
-    background-color: white;
-    color: #000;
+    background-color: #ffffff;
+    color: #000000;
     font-family: 'Titillium Web', sans-serif;
 }
 
 /* Heading */
 .header1 {
-    color: white;
+    color: #ffffff;
     background-color: #e10600;
     display: flex;
     align-items: center;
