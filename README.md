@@ -55,8 +55,8 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
     - [Testing User Stories](#testing-user-stories)
     - [Fixed bugs](#fixed-bugs)
       - [Pilots images not loading on Edge Browser](#pilots-images-not-loading-on-edge-browser)
-    - [Unfixed bugs](#unfixed-bugs)
       - [Sample Image in Score Area](#sample-image-in-score-area)
+    - [Unfixed bugs](#unfixed-bugs)
       - [Flexbox on large screens](#flexbox-on-large-screens)
   - [Technologies used](#technologies-used)
     - [Languages](#languages)
@@ -336,13 +336,15 @@ My mentor, my family and friends checked the site and helped to identify bugs an
 The images of the pilots on the front of the cards were not loading just on Microsoft Edge. They were in format ".avi". I converted them to ".jpg" and this solved the issue.
 By checking the website via the Lighthouse testing, the size of the images of the pilots were too big and heavy for the onload of the site, therefore I resized and compressed the images, and converted them in the end to the format WEBP. 
 
-### Unfixed bugs
-
 #### Sample Image in Score Area 
 
-The sample image in the Score Area with Max Verstappen and the helmet is often not displayed when the website loads. There are instead never issues regarding the player photo that is uploaded in the same box.
+The sample image in the Score Area with Max Verstappen and the helmet was often not displaying when the website was loading.
 
 <img src="./assets/images/readme-images/unfixed-bug.png" width="575" height="250">
+
+This issue was likely causing a Score of Best Practices section of the Lighthouse testing of 86. I added a dot in the file src (src="/assets/images/verstappen-start.webp"  -> src="./assets/images/verstappen-start.webp" ) and then the Lighthouse testing was fully green.
+
+### Unfixed bugs
 
 #### Flexbox on large screens
 
