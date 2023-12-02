@@ -58,6 +58,7 @@ The link to our Live Website can be found here - [F1 - Pole Position!](https://a
       - [Sample Image in Score Area](#sample-image-in-score-area)
     - [Unfixed bugs](#unfixed-bugs)
       - [Flexbox on large screens](#flexbox-on-large-screens)
+      - [Footer on Firefox](#footer-on-firefox)
   - [Technologies used](#technologies-used)
     - [Languages](#languages)
     - [Programs used](#programs-used)
@@ -340,7 +341,7 @@ By checking the website via the Lighthouse testing, the size of the images of th
 
 The sample image in the Score Area with Max Verstappen and the helmet was often not displaying when the website was loading.
 
-<img src="./assets/images/readme-images/unfixed-bug.png" width="575" height="250">
+<img src="./assets/images/readme-images/fixed-bug.png" width="575" height="250">
 
 This issue was likely causing a Score of Best Practices section of the Lighthouse testing of 86. I added a dot in the file src (src="/assets/images/verstappen-start.webp"  -> src="./assets/images/verstappen-start.webp" ) and then the Lighthouse testing was fully green.
 
@@ -351,6 +352,12 @@ This issue was likely causing a Score of Best Practices section of the Lighthous
 The cards are organized in 2 rows, vertical on screens of 320px and 576px, horizontal from 768px and up. The horizontal position works well on big screens, but when zooming the flexbox might switch to 3 lines. This might be resolved in the future by using Flexbox Grid. 
 
 <img src="./assets/images/readme-images/flexbox-bug.png" width="575" height="300">
+
+#### Footer on Firefox 
+
+On the firefox browser, the footer does not align to the bottom. 
+
+<img src="./assets/images/readme-images/bug-firefox.png" width="575" height="200">
 
 ## Technologies used
 
